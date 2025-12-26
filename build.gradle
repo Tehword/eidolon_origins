@@ -75,6 +75,10 @@ mixin {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    flatDir {
+        dirs 'libs'
+    }
+
     maven {
         url "https://cursemaven.com"
     }
@@ -82,12 +86,27 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    implementation fg.deobf("curse.maven:eidolon-repraised-870250:7268962")
-    implementation fg.deobf("curse.maven:curios-309927:6418456")
-    implementation fg.deobf("curse.maven:origins-391943:7149659")
-    implementation fg.deobf("curse.maven:connector-extras-913445:5490637")
-    implementation fg.deobf("curse.maven:forgified-fabric-api-889079:6885853")
-    implementation fg.deobf("curse.maven:sinytra-connector-890127:7241800")
+
+
+    if (file("libs").isDirectory()) {
+        file("libs").eachFile { file ->
+            def splitPos = file.name.lastIndexOf("-")
+
+            if (file.name != "desktop.ini") {
+                println file.name
+
+                def modartifact = file.name.substring(0, splitPos)
+                def modversion = file.name.substring(splitPos + 1, file.name.length() - 4)
+                def modreference = "lib:$modartifact:$modversion"
+
+                dependencies {
+                    implementation fg.deobf(project.dependencies.create(modreference) {
+                        transitive = false
+                    })
+                }
+            }
+        }
+    } else file("libs").mkdir()
 
 
 }

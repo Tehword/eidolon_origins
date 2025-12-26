@@ -1,0 +1,4 @@
+[16:00:26] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[16:00:26] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE origins 1.10.2+mc.1.20.x {depends fabric @ [>=0.83.0]}, ROOT_FORCELOAD_SINGLE origins 1.10.2+mc.1.20.x]
+[16:00:26] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP origins 1.10.2+mc.1.20.x {depends fabric @ [>=0.83.0]}, HARD_DEP apoli 2.9.2+mc.1.20.x {depends fabric @ [>=0.83.0]}, HARD_DEP calio 1.11.2+mc.1.20.x {depends fabric @ [*]}, HARD_DEP playerabilitylib 1.8.0 {depends fabric @ [*]}, HARD_DEP cardinal_components_base 5.2.1 {depends fabric-api-base @ [>=0.1.2]}, HARD_DEP cardinal_components_entity 5.2.1 {depends fabric-api-base @ [*]}]
+[16:00:26] [INFO] [FabricLoader/Resolution]: Fix: add [add:fabric 0.83.0 ([[0.83.0,∞)]), add:fabric-api-base 0.1.2 ([[0.1.2,∞)])], remove [], replace []

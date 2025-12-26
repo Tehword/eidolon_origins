@@ -1,6 +1,8 @@
 package net.Tehword.eidolon_origins;
 
 import com.mojang.logging.LogUtils;
+import net.Tehword.eidolon_origins.registries.EOsigns;
+import net.Tehword.eidolon_origins.registries.EOspells;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -38,7 +40,8 @@ public class Eidolon_origins {
     public Eidolon_origins() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-
+        EOspells.init();
+        EOsigns.init();
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
