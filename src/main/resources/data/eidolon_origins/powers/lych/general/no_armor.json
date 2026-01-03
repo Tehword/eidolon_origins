@@ -1,0 +1,97 @@
+{
+  "type": "origins:multiple",
+	"armor_restrict": {
+		"type": "origins:restrict_armor",
+		"head": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "eidolon_origins:warlock_armor"
+					}
+				},
+				{
+					"type": "eidolon_origins:warlock_armor"
+				}
+			]
+		},
+		"chest": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "eidolon_origins:warlock_armor"
+					}
+				},
+				{
+					"type": "eidolon_origins:warlock_armor"
+				}
+			]
+		},
+		"legs": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "eidolon_origins:warlock_armor"
+					}
+				},
+				{
+					"type": "eidolon_origins:warlock_armor"
+				}
+			]
+		},
+		"feet": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "eidolon_origins:warlock_armor"
+					}
+				},
+				{
+					"type": "eidolon_origins:warlock_armor"
+				}
+			]
+		}
+	},
+	"armor_tooltip": {
+		"type": "apoli:tooltip",
+		"item_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "eidolon_origins:warlock_armor"
+					}
+                },
+				{
+					"type": "eidolon_origins:warlock_armor"
+				}
+			]
+		},
+		"text": [
+			{
+				"translate": "Unsuitable",
+				"color": "gray"
+			},
+			{
+				"text": " (",
+				"color": "gray"
+			},
+			{
+				"translate": "This armor doesn't suit you.",
+				"color": "red"
+			},
+			{
+				"text": ")",
+				"color": "gray"
+			}
+		]
+	}
+}

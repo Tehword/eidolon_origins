@@ -91,3 +91,92 @@
 		"origins:like_air" = true
 		enabled = true
 
+	[origins."eidolonorigins:palladin"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = true
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+		"medievalorigins:yeti/spell_power" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
+		"origins_survive:cold_resistance" = true
+		"origins_toughasnails:cold_resistance" = true
+
+	[origins."eidolonorigins:lych"]
+		enabled = true
+		"medievalorigins:wood_elf/archer" = true
+		"medievalorigins:wood_elf/forest_vision" = true
+		"medievalorigins:wood_elf/empowered_shot" = true
+		"medievalorigins:wood_elf/empowered_shot_zenith" = true
+		"medievalorigins:wood_elf/empowered_shot_apotheosis" = true
+		"medievalorigins:wood_elf/eagle_eyed" = true
+		"medievalorigins:wood_elf/towering" = true
+		"medievalorigins:wood_elf/steward" = true
+		"medievalorigins:wood_elf/elegant" = true
+		"medievalorigins:wood_elf/graceful" = true
+		"medievalorigins:wood_elf/gear_spawn" = true
+		"medievalorigins:wood_elf/spell_power" = true
+		"eidolonorigins:lych/no_armor" = true
+
+	[origins."eidolon_origins:palladin"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = true
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+		"medievalorigins:yeti/spell_power" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
+		"origins_survive:cold_resistance" = true
+		"origins_toughasnails:cold_resistance" = true
+
+	[origins."eidolon_origins:lych"]
+		enabled = true
+		"eidolon_origins:lych/no_armor" = true
+		"medievalorigins:wood_elf/forest_vision" = true
+		"medievalorigins:wood_elf/empowered_shot" = true
+		"medievalorigins:wood_elf/empowered_shot_zenith" = true
+		"medievalorigins:wood_elf/empowered_shot_apotheosis" = true
+		"medievalorigins:wood_elf/eagle_eyed" = true
+		"medievalorigins:wood_elf/towering" = true
+		"medievalorigins:wood_elf/steward" = true
+		"medievalorigins:wood_elf/elegant" = true
+		"medievalorigins:wood_elf/graceful" = true
+		"medievalorigins:wood_elf/gear_spawn" = true
+		"medievalorigins:wood_elf/spell_power" = true
+		"eidolon_origins:lych/fragile" = true
+		"eidolon_origins:lych/aggressive_golems" = true
+		"eidolon_origins:lych/no_trades" = true
+		"eidolon_origins:lych/silver_items_burn" = true
+		"eidolon_origins:lych/ash" = true
+		"eidolon_origins:lych/ash_two" = true
+		"minecraft:eidolon_origins/lych/undead" = true
+		"eidolon_origins:lych/undead" = true
+		"eidolon_origins:lych/damage_taken" = true
+		"eidolon_origins:lych/damage_dealt" = true
+		"eidolon_origins:lyck/no_holy_items" = true
+		"eidolon_origins:lych/no_holy_items" = true
+		"eidolon_origins:lych/general/undead" = true
+		"eidolon_origins:lych/general/fragile" = true
+		"eidolon_origins:lych/general/no_armor" = true
+		"eidolon_origins:lych/general/aggressive_golems" = true
+		"eidolon_origins:lych/general/no_trades" = true
+		"eidolon_origins:lych/general/silver_items_burn" = true
+		"eidolon_origins:lych/general/ash" = true
+		"eidolon_origins:lych/generaldamage_taken" = true
+		"eidolon_origins:lych/general/damage_dealt" = true
+		"eidolon_origins:lych/general/no_holy_items" = true
+		"eidolon_origins:lych/general/damage_taken" = true
+		"eidolon_origins:lych/tier_one/undeadge" = true
+		"eidolon_origins:lych/general/undeadge" = true
+		"eidolon_origins:lych/tier_one/neutral_undead_enemies" = true
+

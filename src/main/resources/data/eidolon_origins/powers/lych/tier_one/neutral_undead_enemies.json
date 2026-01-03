@@ -1,0 +1,72 @@
+{
+    "name": "Stealth",
+    "description": "No monster will hit you unless you hit it first.\n",
+    "type": "origins:multiple",
+    "callback": {
+      "type": "origins:action_on_callback",
+      "entity_action_gained": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "team add undead_allies"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "team join undead_allies @s"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "team join undead_allies @e[type=#eidolon_origins:undead_list]"
+          }
+        ]
+      },
+      "execute_chosen_when_orb": true
+    },
+"action_over_time": {
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+      "type": "origins:execute_command",
+      "command": "team join undead_allies @e[type=#eidolon_origins:undead_list]"
+    }
+  },
+  "action_on_death": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "team join undead_allies @s"
+    },
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 0
+      }
+    },
+    "attack": {
+        "type": "origins:self_action_on_hit",
+        "target_condition": {
+            "type": "origins:in_tag",
+            "tag": "eidolon_origins:undead_list"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "team leave @s"
+        }
+    },
+    "return": {
+        "type": "origins:action_over_time",
+      "interval": 1200,
+      "entity_action": {
+        "type": "origins:execute_command",
+        "command": "team join undead_allies @s",
+        "condition": {
+          "type": "origins:command",
+          "command": "execute if entity @s[team=!undead_allies]",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      }
+    }
+}

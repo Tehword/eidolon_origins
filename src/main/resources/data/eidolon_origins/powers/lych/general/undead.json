@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "eidolon:undeath",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false,
+      "amplifier": 1,
+      "duration": 120000
+    }
+  },
+  "interval": 20
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "eidolon:silver_ingot",
+    "eidolon:raw_silver",
+    "eidolon:silver_nugget",
+    "eidolon:silver_helmet",
+    "eidolon:silver_chestplate",
+    "eidolon:silver_leggings",
+    "eidolon:silver_boots",
+    "eidolon:silver_sword",
+    "eidolon:silver_pickaxe",
+    "eidolon:silver_axe",
+    "eidolon:silver_shovel",
+    "eidolon:silver_hoe",
+    "eidolon:silver_ore",
+    "eidolon:deep_silver_ore",
+    "eidolon:silver_block",
+    "eidolon:raw_silver_block",
+    "eidolon:enchanted_ash",
+    "eidolon:holy_symbol"
+  ]
+}

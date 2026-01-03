@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "agro": {
+        "type": "origins:action_over_time",
+        "interval": 15,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "data modify entity @e[limit=1,distance=..15,type=minecraft:iron_golem,sort=nearest] AngryAt set from entity @s UUID",
+            "permission_level": 4
+        }
+    },
+    "convert_player_made": {
+        "type": "origins:action_over_time",
+        "interval": 15,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[type=minecraft:iron_golem,distance=..30,nbt=!{Tags:[\"ConvertedByPlayer\"]}] run data merge entity @s {PlayerCreated:0b,Tags:[\"ConvertedByPlayer\"]}",
+            "permission_level": 4
+        }
+    },
+    "revert_player_made": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[type=minecraft:iron_golem,distance=30..90,nbt={Tags:[\"ConvertedByPlayer\"]}] run data merge entity @s {PlayerCreated:1b,Tags:[]}",
+            "permission_level": 4
+        }
+    }
+}

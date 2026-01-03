@@ -1,0 +1,23 @@
+{
+  "type": "origins:multiple",
+  "action_one": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 120
+    },
+    "condition": {
+      "type": "origins:inventory",
+      "process_mode": "items",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "eidolon_origins:silver_items"
+        }
+      },
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  }
+}

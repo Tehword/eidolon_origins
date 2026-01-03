@@ -1,0 +1,40 @@
+{
+
+  "eidolon_origins.sign.chaos": "Chaos",
+
+  "origin.eidolon_origins.lych.name": "Lych",
+  "origin.eidolon_origins.lych.description": "Lych Lych Lych Lych.",
+
+  "power.eidolon_origins.lych/general/undead.name": "Undead",
+  "power.eidolon_origins.lych/general/undead.description": "You`re an undead.",
+
+  "power.eidolon_origins.lych/general/fragile.name": "Fragile",
+  "power.eidolon_origins.lych/general/fragile.description": "You`re naturally more fragile than normal human being, so you have only 3 hearts.",
+
+  "power.eidolon_origins.lych/general/no_armor.name": "Unsuitable armor",
+  "power.eidolon_origins.lych/general/no_armor.description": "The only thing, that suits you - is warlock's clothes.",
+
+  "power.eidolon_origins.lych/general/aggressive_golems.name": "A Monster",
+  "power.eidolon_origins.lych/general/aggressive_golems.description": "Iron golems are aggressive towards you.",
+
+  "power.eidolon_origins.lych/general/no_trades.name": "Without Trading",
+  "power.eidolon_origins.lych/general/no_trades.description": "You cannot talk to living creatures, and therefore you cannot trade with the villagers.",
+
+  "power.eidolon_origins.lych/general/silver_items_burn.name": "Without Silver Items",
+  "power.eidolon_origins.lych/general/silver_items_burn.description": "Because you`re undead, you cannot hold silver items.",
+
+  "power.eidolon_origins.lych/general/ash.name": "Dangerous Enchanted Ash",
+  "power.eidolon_origins.lych/general/ash.description": "Enchanted ash is dangerous against you. You cannot step on it, and if you touch it or break it you will burn.",
+
+  "power.eidolon_origins.lych/general/damage_taken.name": "More Damage Taken",
+  "power.eidolon_origins.lych/general/damage_taken.description": "All source of damage do more damage against you, expect for magic.",
+
+  "power.eidolon_origins.lych/general/damage_dealt.name": "More Damage Deal",
+  "power.eidolon_origins.lych/general/damage_dealt.description": "You deal less non-magical damage.",
+
+  "power.eidolon_origins.lych/general/no_holy_items.name": "No Holy Items",
+  "power.eidolon_origins.lych/general/no_holy_items.description": "You cannot use any holy items.",
+
+  "eidolon_origins.poor_reputation": "You cannot talk with living creatures"
+
+}

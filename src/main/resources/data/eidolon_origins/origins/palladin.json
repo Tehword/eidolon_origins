@@ -1,0 +1,14 @@
+{
+  "name": "Palladin",
+  "description": "Palladin Palladin Palladin",
+	"loading_priority": 11,
+	"powers": [
+
+	],
+	"icon": {
+		"item": "eidolon:holy_symbol",
+		"tag": "{CustomModelData:365}"
+	},
+	"impact": 3,
+	"order": 1
+}

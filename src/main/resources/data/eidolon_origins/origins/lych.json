@@ -1,0 +1,23 @@
+{
+  "loading_priority": 11,
+	"powers": [
+        "eidolon_origins:lych/general/undead",
+        "eidolon_origins:lych/general/undeadge",
+        "eidolon_origins:lych/general/fragile",
+        "eidolon_origins:lych/general/no_armor",
+        "eidolon_origins:lych/general/aggressive_golems",
+        "eidolon_origins:lych/general/no_trades",
+        "eidolon_origins:lych/general/silver_items_burn",
+        "eidolon_origins:lych/general/ash",
+        "eidolon_origins:lych/general/damage_taken",
+        "eidolon_origins:lych/general/damage_dealt",
+        "eidolon_origins:lych/general/no_holy_items",
+        "eidolon_origins:lych/tier_one/neutral_undead_enemies"
+    ],
+        "icon": {
+		"item": "eidolon:unholy_symbol",
+		"tag": "{CustomModelData:354}"
+	},
+        "impact": 3,
+        "order": 1
+}

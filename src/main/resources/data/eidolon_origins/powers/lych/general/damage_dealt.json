@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+  "damage": {
+  "type": "origins:modify_damage_dealt",
+     "modifier": {
+       "attribute": "minecraft:generic.attack_damage",
+       "operation": "multiply_base",
+       "value": -0.5,
+      "condition": {
+       "source": {
+         "name": "magic",
+         "bypasses_armor": false,
+         "unblockable": false
+      },
+         "inverted": true
+    }
+   }
+  }
+}

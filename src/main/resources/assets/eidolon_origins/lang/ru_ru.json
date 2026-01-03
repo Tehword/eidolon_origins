@@ -1,0 +1,40 @@
+{
+
+  "eidolon_origins.sign.chaos": "Хаоса",
+
+  "origin.eidolon_origins.lych.name": "Лич",
+  "origin.eidolon_origins.lych.description": "Лич Лич Лич Лич.",
+
+  "power.eidolon_origins.lych/general/undead.name": "Нежить",
+  "power.eidolon_origins.lych/general/undead.description": "Вы нежить.",
+
+  "power.eidolon_origins.lych/general/fragile.name": "Хрупок",
+  "power.eidolon_origins.lych/general/fragile.description": "Вы по природе более слабы обычного человека, поэтому у вас всего 3 сердечка.",
+
+  "power.eidolon_origins.lych/general/no_armor.name": "Неподходящая броня",
+  "power.eidolon_origins.lych/general/no_armor.description": "Единственная вещь, которая вам подходит - одежда чернокнижника.",
+
+  "power.eidolon_origins.lych/general/aggressive_golems.name": "Монстр",
+  "power.eidolon_origins.lych/general/aggressive_golems.description": "Железные големы агрессивны к вам.",
+
+  "power.eidolon_origins.lych/general/no_trades.name": "Без торговли",
+  "power.eidolon_origins.lych/general/no_trades.description": "Вы не можете разговаривать с живыми существами, в следствии чего и торговать с жителями.",
+
+  "power.eidolon_origins.lych/general/silver_items_burn.name": "Без серебряных вещей",
+  "power.eidolon_origins.lych/general/silver_items_burn.description": "Из-за того, что вы нежить, вы не можете держать в руках серебряные вещи.",
+
+  "power.eidolon_origins.lych/general/ash.name": "Опасная зачарованая пыль",
+  "power.eidolon_origins.lych/general/ash.description": "Зачарованая пыль опасна относительно вас. Вы не можете наступать на неё, и если вы дотронетесь или сломаете её - вы загоритесь.",
+
+  "power.eidolon_origins.lych/general/damage_taken.name": "Больший получаемый урон",
+  "power.eidolon_origins.lych/general/damage_taken.description": "Вы получаете больше урона от всех источников, исключая магию.",
+
+  "power.eidolon_origins.lych/general/damage_dealt.name": "Больший наносимый урон",
+  "power.eidolon_origins.lych/general/damage_dealt.description": "Вы наносите меньше не магического урона.",
+
+  "power.eidolon_origins.lych/general/no_holy_items.name": "Без святых вещей",
+  "power.eidolon_origins.lych/general/no_holy_items.description": "Вы не можете использовать святые вещи.",
+
+  "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами."
+
+}

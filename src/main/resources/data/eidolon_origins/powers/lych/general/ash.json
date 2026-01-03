@@ -1,0 +1,30 @@
+{
+  "type": "origins:multiple",
+  "action_one": {
+  "type": "origins:action_on_block_break",
+  "entity_action": {
+    "type": "origins:set_on_fire",
+    "duration": 120
+  },
+  "block_condition": {
+    "type": "origins:block",
+    "block": "eidolon:enchanted_ash"
+  },
+  "only_when_harvested": false
+ },
+  "action_two": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 5
+     },
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:block",
+        "block": "eidolon:enchanted_ash"
+      }
+    }
+  }
+}
