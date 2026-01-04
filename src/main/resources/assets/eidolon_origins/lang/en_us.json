@@ -41,6 +41,12 @@
   "power.eidolon_origins.lych/tier_one/codex.name": "Codex",
   "power.eidolon_origins.lych/tier_one/codex.description": "From the beginning of the game, you have the codex",
 
+  "eidolon_origins.codex.title.chaos_sign": "Chaos Sign",
+  "eidolon_origins.codex.page.chaos_sign.title": "Chaos sign",
+  "eidolon_origins.codex.page.chaos_sign": "Chaos sign - is chaos sign",
+
+  "eidolon_origins.codex.page.censer.10": "Test Test Test",
+
   "eidolon_origins.poor_reputation": "You cannot talk with living creatures"
 
 }
