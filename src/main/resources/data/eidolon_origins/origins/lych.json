@@ -12,7 +12,8 @@
         "eidolon_origins:lych/general/damage_taken",
         "eidolon_origins:lych/general/damage_dealt",
         "eidolon_origins:lych/general/no_holy_items",
-        "eidolon_origins:lych/tier_one/neutral_undead_enemies"
+        "eidolon_origins:lych/tier_one/neutral_undead_enemies",
+        "eidolon_origins:lych/tier_one/codex"
     ],
         "icon": {
 		"item": "eidolon:unholy_symbol",

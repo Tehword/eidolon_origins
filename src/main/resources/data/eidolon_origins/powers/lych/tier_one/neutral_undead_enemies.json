@@ -1,6 +1,4 @@
 {
-    "name": "Stealth",
-    "description": "No monster will hit you unless you hit it first.\n",
     "type": "origins:multiple",
     "callback": {
       "type": "origins:action_on_callback",

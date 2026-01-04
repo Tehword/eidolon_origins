@@ -35,6 +35,12 @@
   "power.eidolon_origins.lych/general/no_holy_items.name": "No Holy Items",
   "power.eidolon_origins.lych/general/no_holy_items.description": "You cannot use any holy items.",
 
+  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Neutral undead enemies",
+  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.description": "Undead enemies are neutral towards you",
+
+  "power.eidolon_origins.lych/tier_one/codex.name": "Codex",
+  "power.eidolon_origins.lych/tier_one/codex.description": "From the beginning of the game, you have the codex",
+
   "eidolon_origins.poor_reputation": "You cannot talk with living creatures"
 
 }

@@ -4,9 +4,9 @@
     "type": "origins:modify_damage_taken",
     "damage_condition": {
       "type": "origins:attacker",
-        "damage_type": "eidolon_origins:is_magic"
-            },
-        "inverted": true,
+      "damage_type": "eidolon_origins:is_magic"
+    },
+    "inverted": true,
     "modifier": {
       "operation": "multiply_total_multiplicative",
       "value": 1

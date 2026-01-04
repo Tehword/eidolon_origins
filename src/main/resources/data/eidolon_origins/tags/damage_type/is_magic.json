@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         {"id":"#minecraft:is_magic","required":false},
+        {"id":"eidolon:ritual","required":false},
         {"id":"#minecraft:witch_resistant_to","required":false},
         {"id":"#medievalorigins:spell_damage","required":false},
         {"id":"#irons_spellbooks:eldritch_magic","required":false},
