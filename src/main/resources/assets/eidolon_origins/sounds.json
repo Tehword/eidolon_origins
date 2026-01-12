@@ -1,0 +1,13 @@
+{
+  "lych_sounds": {
+    "sounds": [
+      "eidolon_origins:lych_sound_one",
+      "eidolon_origins:lych_sound_two",
+      "eidolon_origins:lych_sound_three",
+      "eidolon_origins:lych_sound_four",
+      "eidolon_origins:lych_sound_five",
+      "eidolon_origins:lych_sound_six"
+    ],
+    "subtitle": "eidolon_origins.subtitle.lych_sounds"
+  }
+}

@@ -185,12 +185,6 @@
     },
     "done": true
   },
-  "eidolon:sacrifice": {
-    "criteria": {
-      "sacrifice": "2025-12-25 00:49:53 +0300"
-    },
-    "done": true
-  },
   "eidolon:unholy_symbol": {
     "criteria": {
       "has_unholy_symbol": "2025-12-25 00:52:24 +0300"
@@ -273,6 +267,18 @@
   "eidolon:incense": {
     "criteria": {
       "incense": "2025-12-31 07:04:14 +0300"
+    },
+    "done": true
+  },
+  "eidolon:holy_symbol": {
+    "criteria": {
+      "has_holy_symbol": "2026-01-06 04:10:42 +0300"
+    },
+    "done": true
+  },
+  "eidolon:sacrifice": {
+    "criteria": {
+      "sacrifice": "2026-01-06 16:44:52 +0300"
     },
     "done": true
   },

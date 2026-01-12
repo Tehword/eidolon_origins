@@ -23,17 +23,32 @@
   "power.eidolon_origins.lych/general/silver_items_burn.name": "Без серебряных вещей",
   "power.eidolon_origins.lych/general/silver_items_burn.description": "Из-за того, что вы нежить, вы не можете держать в руках серебряные вещи.",
 
-  "power.eidolon_origins.lych/general/ash.name": "Опасная зачарованая пыль",
+  "power.eidolon_origins.lych/general/ash.name": "Опасная пыль",
   "power.eidolon_origins.lych/general/ash.description": "Зачарованая пыль опасна относительно вас. Вы не можете наступать на неё, и если вы дотронетесь или сломаете её - вы загоритесь.",
 
-  "power.eidolon_origins.lych/general/damage_taken.name": "Больший получаемый урон",
+  "power.eidolon_origins.lych/general/damage_taken.name": "Получаемый урон",
   "power.eidolon_origins.lych/general/damage_taken.description": "Вы получаете больше урона от всех источников, исключая магию.",
 
-  "power.eidolon_origins.lych/general/damage_dealt.name": "Больший наносимый урон",
+  "power.eidolon_origins.lych/general/damage_dealt.name": "Наносимый урон",
   "power.eidolon_origins.lych/general/damage_dealt.description": "Вы наносите меньше не магического урона.",
 
   "power.eidolon_origins.lych/general/no_holy_items.name": "Без святых вещей",
   "power.eidolon_origins.lych/general/no_holy_items.description": "Вы не можете использовать святые вещи.",
+
+  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Нейтральная нежить",
+  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.description": "Нежить нейтральна к вам.",
+
+  "power.eidolon_origins.lych/tier_one/codex.name": "Кодекс",
+  "power.eidolon_origins.lych/tier_one/codex.description": "Вы появляетесь в мире уже с кодексом.",
+
+  "power.eidolon_origins.lych/tier_one/chaos_sign.name": "Знак хаоса",
+  "power.eidolon_origins.lych/tier_one/chaos_sign.description": "Вы знаете знак хаоса с начала игры.",
+
+  "eidolon_origins.codex.title.chaos_sign": "Знак Хаоса",
+  "eidolon_origins.codex.page.chaos_sign.title": "Знак Хаоса",
+  "eidolon_origins.codex.page.chaos_sign": "Знак хаоса - это знак хаоса.",
+
+  "eidolon_origins.subtitle.lych_sounds": "Лич стонет",
 
   "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами."
 

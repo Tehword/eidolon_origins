@@ -13,7 +13,9 @@
         "eidolon_origins:lych/general/damage_dealt",
         "eidolon_origins:lych/general/no_holy_items",
         "eidolon_origins:lych/tier_one/neutral_undead_enemies",
-        "eidolon_origins:lych/tier_one/codex"
+        "eidolon_origins:lych/tier_one/codex",
+        "eidolon_origins:lych/tier_one/chaos_sign",
+        "eidolon_origins:lych/tier_one/sounds"
     ],
         "icon": {
 		"item": "eidolon:unholy_symbol",

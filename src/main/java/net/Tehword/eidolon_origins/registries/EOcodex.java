@@ -1,11 +1,9 @@
 package net.Tehword.eidolon_origins.registries;
 
+import elucent.eidolon.client.particle.Particles;
 import elucent.eidolon.codex.*;
-import elucent.eidolon.registries.Signs;
-import net.Tehword.eidolon_origins.Eidolon_origins;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 

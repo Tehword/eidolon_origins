@@ -180,4 +180,8 @@
 		"eidolon_origins:lych/general/undeadge" = true
 		"eidolon_origins:lych/tier_one/neutral_undead_enemies" = true
 		"eidolon_origins:lych/tier_one/codex" = true
+		"eidolon_origins:lych/tier_one/chaos_sign" = true
+		"eidolon_origins:lych/tier_two/dark_vision" = true
+		"eidolon_origins:lych/general/sounds" = true
+		"eidolon_origins:lych/tier_one/sounds" = true
 
