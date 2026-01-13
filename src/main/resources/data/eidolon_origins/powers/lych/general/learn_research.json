@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+  "learn_research_one": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "knowledge @s grant research eidolon_origins:lych_research_one"
+            }
+        },
+  "execute_chosen_when_orb": true,
+  "learn_research_two": {
+    "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "knowledge @s grant research eidolon_origins:lych_research_two"
+  },
+    "condition": {
+      "type": "origins:advancement",
+      "advancement": "eidolon:sacrifice"
+    }
+},
+  "learn_research_three": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "knowledge @s grant research eidolon_origins:lych_research_three"
+    },
+    "condition": {
+      "type": "origins:advancement",
+      "advancement": "eidolon:villager_sacrifice"
+    }
+  },
+  "learn_research_four": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "knowledge @s grant research eidolon_origins:lych_research_four"
+    },
+    "condition": {
+      "type": "origins:advancement",
+      "advancement": "eidolon:enthrall_undead"
+    }
+  },
+  "hidden": true
+}

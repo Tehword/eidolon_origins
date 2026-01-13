@@ -2,8 +2,8 @@
 
   "eidolon_origins.sign.chaos": "Chaos",
 
-  "origin.eidolon_origins.lych.name": "Lych",
-  "origin.eidolon_origins.lych.description": "Lych Lych Lych Lych.",
+  "origin.eidolon_origins.lych.name": "Lich",
+  "origin.eidolon_origins.lych.description": "Lich Lich Lich Lich.",
 
   "power.eidolon_origins.lych/general/undead.name": "Undead",
   "power.eidolon_origins.lych/general/undead.description": "You`re an undead.",
@@ -35,7 +35,7 @@
   "power.eidolon_origins.lych/general/no_holy_items.name": "No Holy Items",
   "power.eidolon_origins.lych/general/no_holy_items.description": "You cannot use any holy items.",
 
-  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Neutral undead enemies",
+  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Neutral Undead Enemies",
   "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.description": "Undead enemies are neutral towards you.",
 
   "power.eidolon_origins.lych/tier_one/codex.name": "Codex",
@@ -45,13 +45,28 @@
   "power.eidolon_origins.lych/tier_one/chaos_sign.description": "You know the sign of chaos from the beginning of the game.",
 
   "eidolon_origins.codex.title.chaos_sign": "Chaos Sign",
-  "eidolon_origins.codex.page.chaos_sign.title": "Chaos sign",
+  "eidolon_origins.codex.page.chaos_sign.title": "Chaos Sign",
   "eidolon_origins.codex.page.chaos_sign": "The sign known only to the Lich. Chaos sing symbolizes true darkness. As a component of chants, it is used to distort, corrupt chants and their meaning. Allowing a Lich to commit crimes against existence itself.",
+  "eidolon.codex.category.mage_holders": "Keepers of Magic",
+  "eidolon.codex.page.mage_holders.title": "Keepers of Magic",
+  "eidolon_origins.codex.page.origins.title": "Origins",
+  "eidolon_origins.codex.page.origins": "Origins",
+  "eidolon_origins.codex.page.tier_one.title": "Lichdom: First Step",
+  "eidolon_origins.codex.page.tier_one": "Lichdom: First Step",
+  "eidolon_origins.codex.page.tier_two.title": "Lichdom: Second Step",
+  "eidolon_origins.codex.page.tier_two": "lichdom: Second Step",
+  "eidolon_origins.codex.page.tier_three.title": "Lichdom: Third Step",
+  "eidolon_origins.codex.page.tier_three": "Lichdom: Third Step",
+  "eidolon_origins.codex.page.tier_four.title": "Lichdom: Fourth Step",
+  "eidolon_origins.codex.page.tier_four": "Lichdom: Fourth Step",
 
-  "eidolon_origins.subtitle.lych_sounds": "Lych moans",
+  "eidolon_origins.subtitle.lych_sounds": "Lich moans",
 
   "eidolon_origins.codex.page.censer.10": "Test Test Test",
 
-  "eidolon_origins.poor_reputation": "You cannot talk with living creatures"
-
+  "eidolon_origins.poor_reputation": "You cannot talk with living creatures",
+  "research.eidolon_origins.lych_research_one": "Lichdom: First Step",
+  "research.eidolon_origins.lych_research_two": "Lichdom: Second Step",
+  "research.eidolon_origins.lych_research_three": "Lichdom: Third Step",
+  "research.eidolon_origins.lych_research_four": "Lichdom: Fourth Step"
 }

@@ -1,5 +1,6 @@
 package net.Tehword.eidolon_origins;
 
+import net.Tehword.eidolon_origins.registries.EOresearches;
 import net.Tehword.eidolon_origins.registries.EOsigns;
 import net.Tehword.eidolon_origins.registries.EOsounds;
 import net.Tehword.eidolon_origins.registries.EOspells;
@@ -21,6 +22,7 @@ public class Eidolon_origins {
         EOspells.init();
         EOsigns.init();
         EOsounds.register(modEventBus);
+        EOresearches.init();
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
