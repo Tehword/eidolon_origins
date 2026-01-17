@@ -8,6 +8,9 @@
   "power.eidolon_origins.lych/general/undead.name": "Meow",
   "power.eidolon_origins.lych/general/undead.description": "Meow meow meow meow",
 
+  "power.eidolon_origins.lych/general/teleportation.name": "Meow Meow",
+  "power.eidolon_origins.lych/general/teleportation.description": "Meow meow meow Meow Meow meow.",
+
   "power.eidolon_origins.lych/general/fragile.name": "Meow",
   "power.eidolon_origins.lych/general/fragile.description": "Meow meow meow meow meow meow meow meow meow, meow meow meow meow 3 meow.",
 
@@ -61,6 +64,9 @@
   "eidolon_origins.codex.page.tier_four": "Meow: Meow Meow",
 
   "eidolon_origins.subtitle.lych_sounds": "Meow meow",
+  "eidolon_origins.subtitle.lych_sound_hurt": "Meow meow",
+  "eidolon_origins.subtitle.lych_sound_death": "Meow meow",
+
 
   "eidolon_origins.codex.page.censer.10": "Meow Meow Meow",
 

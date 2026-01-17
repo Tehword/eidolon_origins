@@ -1,0 +1,37 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "ambient_sound": {
+    "type": "origins:action_over_time",
+    "interval": 6000,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "playsound eidolon_origins:lych_sounds ambient @s ~ ~ ~"
+    }
+  },
+  "sound_on_hit": {
+  "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "playsound eidolon_origins:lych_sound_hurt ambient @s ~ ~ ~"
+    },
+    "condition": {
+      "type": "origins:health",
+      "comparison": ">=",
+      "compare_to": 0
+    }
+  },
+  "sound_on_death": {
+      "type": "origins:action_over_time",
+      "interval": 10,
+      "entity_action": {
+        "type": "origins:execute_command",
+        "command": "playsound eidolon_origins:lych_sound_death ambient @s ~ ~ ~"
+      },
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 0
+      }
+  }
+}

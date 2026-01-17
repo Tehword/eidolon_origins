@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "eidolon_origins:eidor_crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6216216216,
+    "spacing": 1,
+    "separation": 0
+  }
+}

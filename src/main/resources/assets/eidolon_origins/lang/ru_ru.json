@@ -8,6 +8,9 @@
   "power.eidolon_origins.lych/general/undead.name": "Нежить",
   "power.eidolon_origins.lych/general/undead.description": "Вы нежить.",
 
+  "power.eidolon_origins.lych/general/teleportation.name": "Другой спавн",
+  "power.eidolon_origins.lych/general/teleportation.description": "Вы спавнитесь в Крипте Эйдора.",
+
   "power.eidolon_origins.lych/general/fragile.name": "Хрупок",
   "power.eidolon_origins.lych/general/fragile.description": "Вы по природе более слабы обычного человека, поэтому у вас всего 3 сердечка.",
 
@@ -61,6 +64,8 @@
   "eidolon_origins.codex.page.tier_four": "Личдом: шаг четыре",
 
   "eidolon_origins.subtitle.lych_sounds": "Лич стонет",
+  "eidolon_origins.subtitle.lych_sound_hurt": "Лич трещит костями",
+  "eidolon_origins.subtitle.lych_sound_death": "Лич погибает",
 
   "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами.",
   "research.eidolon_origins.lych_research_one": "Личдом: шаг один",

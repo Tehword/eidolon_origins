@@ -1,5 +1,6 @@
 {
   "lych_sounds": {
+    "subtitle": "eidolon_origins.subtitle.lych_sounds",
     "sounds": [
       "eidolon_origins:lych_sound_one",
       "eidolon_origins:lych_sound_two",
@@ -7,7 +8,18 @@
       "eidolon_origins:lych_sound_four",
       "eidolon_origins:lych_sound_five",
       "eidolon_origins:lych_sound_six"
-    ],
-    "subtitle": "eidolon_origins.subtitle.lych_sounds"
+    ]
+  },
+  "lych_sound_hurt": {
+    "subtitle": "eidolon_origins.subtitle.lych_sound_hurt",
+  "sounds": [
+    "eidolon_origins:lych_sound_hurt"
+  ]
+ },
+  "lych_sound_death": {
+    "subtitle": "eidolon_origins.subtitle.lych_sound_death",
+    "sounds": [
+      "eidolon_origins:lych_sound_death"
+    ]
   }
 }
