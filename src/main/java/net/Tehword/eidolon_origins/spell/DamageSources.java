@@ -24,6 +24,7 @@ public class DamageSources {
         }
     }
 
+
     public static boolean applyDamage(Entity target, float baseAmount, DamageSource damageSource) {
         if (target instanceof LivingEntity livingTarget ) {
             if (damageSource.getEntity() instanceof LivingEntity livingAttacker) {
