@@ -4,6 +4,9 @@
         "eidolon_origins:lych/general/undead",
         "eidolon_origins:lych/general/undeadge",
         "eidolon_origins:lych/general/fragile",
+        "eidolon_origins:lych/general/learn_research",
+        "eidolon_origins:lych/general/teleportation",
+        "eidolon_origins:lych/general/sounds",
         "eidolon_origins:lych/general/no_armor",
         "eidolon_origins:lych/general/aggressive_golems",
         "eidolon_origins:lych/general/no_trades",
@@ -14,8 +17,7 @@
         "eidolon_origins:lych/general/no_holy_items",
         "eidolon_origins:lych/tier_one/neutral_undead_enemies",
         "eidolon_origins:lych/tier_one/codex",
-        "eidolon_origins:lych/tier_one/chaos_sign",
-        "eidolon_origins:lych/tier_one/sounds"
+        "eidolon_origins:lych/tier_one/chaos_sign"
     ],
         "icon": {
 		"item": "eidolon:unholy_symbol",

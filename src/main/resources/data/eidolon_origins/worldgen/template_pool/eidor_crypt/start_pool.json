@@ -1,0 +1,16 @@
+{
+  "name": "eidolon_origins:eidor_crypt/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+        "location": "eidolon_origins:eidor_crypt",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

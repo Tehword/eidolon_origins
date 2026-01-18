@@ -8,6 +8,9 @@
   "power.eidolon_origins.lych/general/undead.name": "Нежить",
   "power.eidolon_origins.lych/general/undead.description": "Вы нежить.",
 
+  "power.eidolon_origins.lych/general/teleportation.name": "Другой спавн",
+  "power.eidolon_origins.lych/general/teleportation.description": "Вы спавнитесь в Крипте Эйдора.",
+
   "power.eidolon_origins.lych/general/fragile.name": "Хрупок",
   "power.eidolon_origins.lych/general/fragile.description": "Вы по природе более слабы обычного человека, поэтому у вас всего 3 сердечка.",
 
@@ -46,10 +49,27 @@
 
   "eidolon_origins.codex.title.chaos_sign": "Знак Хаоса",
   "eidolon_origins.codex.page.chaos_sign.title": "Знак Хаоса",
-  "eidolon_origins.codex.page.chaos_sign": "Знак хаоса - это знак хаоса.",
+  "eidolon_origins.codex.page.chaos_sign": "Знак, известный только Личу. Хаос символизирует истинную тьму. В качестве компонента свитка песнопения, используется для искажения песни и её смысла. Позволяя Личу совершать преступления против самого существования.",
+  "eidolon.codex.category.mage_holders": "Владыки магии",
+  "eidolon.codex.page.mage_holders.title": "Владыки магии",
+  "eidolon_origins.codex.page.origins.title": "Расы",
+  "eidolon_origins.codex.page.origins": "Расы",
+  "eidolon_origins.codex.page.tier_one.title": "Личдом: шаг один",
+  "eidolon_origins.codex.page.tier_one": "Личдом: шаг один",
+  "eidolon_origins.codex.page.tier_two.title": "Личдом: шаг два",
+  "eidolon_origins.codex.page.tier_two": "Личдом: шаг два",
+  "eidolon_origins.codex.page.tier_three.title": "Личдом: шаг три",
+  "eidolon_origins.codex.page.tier_three": "Личдом: шаг три",
+  "eidolon_origins.codex.page.tier_four.title": "Личдом: шаг четыре",
+  "eidolon_origins.codex.page.tier_four": "Личдом: шаг четыре",
 
   "eidolon_origins.subtitle.lych_sounds": "Лич стонет",
+  "eidolon_origins.subtitle.lych_sound_hurt": "Лич трещит костями",
+  "eidolon_origins.subtitle.lych_sound_death": "Лич погибает",
 
-  "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами."
-
+  "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами.",
+  "research.eidolon_origins.lych_research_one": "Личдом: шаг один",
+  "research.eidolon_origins.lych_research_two": "Личдом: шаг два",
+  "research.eidolon_origins.lych_research_three": "Личдом: шаг три",
+  "research.eidolon_origins.lych_research_four": "Личдом: шаг четыре"
 }

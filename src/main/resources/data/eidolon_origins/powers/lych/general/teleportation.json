@@ -1,0 +1,9 @@
+{
+  "type": "origins:multiple",
+  "teleportation": {
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "eidolon_origins:eidor_crypt",
+    "spawn_strategy": "center"
+  }
+}
