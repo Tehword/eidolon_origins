@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:12
-simulationDistance:12
+renderDistance:5
+simulationDistance:6
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -123,7 +123,7 @@ key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
 key_key.eidolon.open_docs:key.keyboard.left.control
-soundCategory_master:0.07119205298013245
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
