@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eidolon_origins.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eidolon_origins.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eidolon_origins.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eidolon_origins.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.Tehword.eidolon_origins.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.Tehword.eidolon_origins.test.iml" />
     </modules>
   </component>
 </project>

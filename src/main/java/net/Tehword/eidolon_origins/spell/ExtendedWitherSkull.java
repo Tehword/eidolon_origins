@@ -1,0 +1,52 @@
+package net.Tehword.eidolon_origins.spell;
+
+import net.Tehword.eidolon_origins.registries.EOspells;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.projectile.WitherSkull;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.phys.Vec3;
+
+public class ExtendedWitherSkull extends WitherSkull {
+    public ExtendedWitherSkull(EntityType<? extends WitherSkull> pEntityType, Level pLevel) {
+        super(pEntityType, pLevel);
+    }
+
+    protected float damage;
+
+    public ExtendedWitherSkull(LivingEntity shooter, Level level, float speed, float damage) {
+        super(EntityType.WITHER_SKULL, level);
+        setOwner(shooter);
+
+        Vec3 power = shooter.getLookAngle().normalize().scale(speed);
+
+        this.xPower = power.x;
+        this.yPower = power.y;
+        this.zPower = power.z;
+        this.damage = damage;
+    }
+
+    @Override
+    protected void onHit(HitResult hitResult) {
+
+
+        if (!this.level().isClientSide) {
+            float explosionRadius = 2;
+            var entities = level().getEntities(this, this.getBoundingBox().inflate(explosionRadius));
+            for (Entity entity : entities) {
+                double distance = entity.distanceToSqr(hitResult.getLocation());
+                if (distance < explosionRadius * explosionRadius  && canHitEntity(entity)) {
+                    float damage = (float) (this.damage * (1 - distance / (explosionRadius * explosionRadius)));
+                    DamageSource source = this.damageSources().witherSkull(this, this.getOwner());
+                    DamageSources.applyDamage(entity, damage, source);
+                }
+            }
+
+            this.level().explode(this, this.getX(), this.getY(), this.getZ(), 0.0F, false, Level.ExplosionInteraction.NONE);
+            this.discard();
+        }
+    }
+}
