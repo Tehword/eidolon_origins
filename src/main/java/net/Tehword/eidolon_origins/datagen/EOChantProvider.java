@@ -5,12 +5,10 @@ import elucent.eidolon.api.spells.Spell;
 import elucent.eidolon.datagen.SimpleDataProvider;
 import elucent.eidolon.recipe.ChantRecipe;
 import elucent.eidolon.registries.Signs;
-import elucent.eidolon.registries.Spells;
 import net.Tehword.eidolon_origins.registries.EOsigns;
 import net.Tehword.eidolon_origins.registries.EOspells;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.entity.Entity;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.file.Path;
@@ -34,7 +32,9 @@ public class EOChantProvider  extends SimpleDataProvider {
 
     }
     protected void addChants() {
-        this.addChant(EOspells.LIGHT3, Signs.FLAME_SIGN, EOsigns.CHAOS_SIGN,Signs.FLAME_SIGN);
+        this.addChant(EOspells.LIGHT3, EOsigns.CHAOS_SIGN);
+        this.addChant(EOspells.FURRY, Signs.SOUL_SIGN);
+
     }
 
     private void addChant(ChantRecipe spell) {

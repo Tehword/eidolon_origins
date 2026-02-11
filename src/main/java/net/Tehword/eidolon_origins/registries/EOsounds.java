@@ -26,7 +26,6 @@ public class EOsounds {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Eidolon_origins.MODID, name)));
     }
 
-    public static void register(IEventBus eventBus) {
-        SOUND_EVENTS.register(eventBus);
+    public static void init() {
     }
 }
