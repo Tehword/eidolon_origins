@@ -1,249 +1,1144 @@
-[18янв.2026 22:22:30.777] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Елена\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, eidolon_origins.mixins.json]
-[18янв.2026 22:22:30.780] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Alibaba; OS Windows 10 arch amd64 version 10.0
-[18янв.2026 22:22:30.870] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[18янв.2026 22:22:30.933] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[18янв.2026 22:22:31.119] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[18янв.2026 22:22:31.197] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Елена/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[18янв.2026 22:22:31.240] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 572.83, NVIDIA Corporation
-[18янв.2026 22:22:31.520] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.13\cf01e2179f72bd2829c65f5226d7dd0cfb6c686\javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[18янв.2026 22:22:31.523] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.13\e3f96129ea14eba84316f2d69816253e228e6e4c\lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[18янв.2026 22:22:31.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.13\85796906112d9b621a7b2996f8bfda49da991ef0\mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[18янв.2026 22:22:31.529] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.13\f77e3021d1eb31d61f8d1b92d18ed4fb3c2806e5\fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
-[18янв.2026 22:22:31.725] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[18янв.2026 22:22:32.927] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18янв.2026 22:22:32.946] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Елена\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[18янв.2026 22:22:33.004] [main/WARN] [mixin/]: Reference map 'eidolon_origins.refmap.json' for eidolon_origins.mixins.json could not be read. If this is a development environment you can ignore this message
-[18янв.2026 22:22:33.276] [main/INFO] [mixin/]: Remapping refMap calio.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.277] [main/INFO] [mixin/]: Remapping refMap caelus.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.280] [main/INFO] [mixin/]: Remapping refMap apoli.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.281] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.282] [main/INFO] [mixin/]: Remapping refMap origins.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.283] [main/INFO] [mixin/]: Remapping refMap additionalentityattributes.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:33.285] [main/INFO] [mixin/]: Remapping refMap eidolon.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
-[18янв.2026 22:22:37.481] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 111 milliseconds
-[18янв.2026 22:22:39.274] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Елена/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.13_mapped_official_1.20.1/forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[18янв.2026 22:22:39.274] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Елена/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.13_mapped_official_1.20.1/forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[18янв.2026 22:22:39.288] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18янв.2026 22:22:39.293] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[18янв.2026 22:22:39.370] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[18янв.2026 22:22:39.552] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
-[18янв.2026 22:22:39.563] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
-[18янв.2026 22:22:39.576] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
-[18янв.2026 22:22:39.577] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
-[18янв.2026 22:22:40.035] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
-[18янв.2026 22:22:40.597] [Render thread/INFO] [Calio/]: CDRM Initialized with 16 registries
-[18янв.2026 22:22:41.199] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [eidolon_origins]
-[18янв.2026 22:22:41.393] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[18янв.2026 22:22:41.471] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[18янв.2026 22:22:41.589] [Worker-Main-8/ERROR] [net.minecraft.Util/]: Invalid path in pack: eidolon:textures/item/incense_palette_Sammy.png, ignoring
-[18янв.2026 22:22:41.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18янв.2026 22:22:42.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.13 Target: 47.4.15
-[18янв.2026 22:22:43.975] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[18янв.2026 22:22:43.975] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_one
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_two
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_three
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_four
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_five
-[18янв.2026 22:22:43.976] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: eidolon_origins:lych_sound_six
-[18янв.2026 22:22:44.014] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
-[18янв.2026 22:22:44.015] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[18янв.2026 22:22:44.162] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[18янв.2026 22:22:44.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[18янв.2026 22:22:44.171] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18янв.2026 22:22:44.171] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18янв.2026 22:22:44.172] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[18янв.2026 22:22:44.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18янв.2026 22:22:44.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[18янв.2026 22:22:44.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18янв.2026 22:22:44.177] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18янв.2026 22:22:44.294] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[18янв.2026 22:22:44.330] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader eidolon:glowing_particle could not find sampler named Sampler2 in the specified shader program.
-[18янв.2026 22:22:44.333] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader eidolon:sprite_particle could not find sampler named Sampler2 in the specified shader program.
-[18янв.2026 22:22:44.358] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[18янв.2026 22:22:44.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18янв.2026 22:22:44.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18янв.2026 22:22:44.890] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[18янв.2026 22:22:55.803] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[18янв.2026 22:22:56.964] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list eidolon_origins:holy from eidolon_origins:tags/items/holy.json in data pack main
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.values[0]
-	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:49) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:114) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.tags.TagManager.lambda$createLoader$4(TagManager.java:55) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.values[0]
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1042) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:824) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.readTerminal(TypeAdapters.java:747) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:791) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar%23130!/:?]
-	... 12 more
-[18янв.2026 22:22:57.230] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe eidolon:smelt_silver_dust as it's serializer returned null
-[18янв.2026 22:22:57.244] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe eidolon:smelt_lead_dust as it's serializer returned null
-[18янв.2026 22:22:57.252] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[18янв.2026 22:22:57.252] [Render thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function eidolon_origins:eorigins/size
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:63) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:83) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[18янв.2026 22:22:57.314] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1352 advancements
-[18янв.2026 22:22:57.320] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[18янв.2026 22:22:57.324] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18янв.2026 22:22:57.336] [Render thread/WARN] [io.github.apace100.apoli.Apoli/]: Power "eidolon_origins:lych/tier_one/codex" will only be partially loaded: Failed to read fields: Not a JSON object: true
-[18янв.2026 22:22:57.346] [Render thread/WARN] [io.github.apace100.apoli.Apoli/]: Power "eidolon_origins:lych/general/no_armor" will only be partially loaded: Failed to read fields: Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
-[18янв.2026 22:22:57.781] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[18янв.2026 22:22:57.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18янв.2026 22:22:58.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18янв.2026 22:22:59.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:22:59.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:22:59.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:22:59.684] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[18янв.2026 22:22:59.902] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18янв.2026 22:22:59.915] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1738 ms
-[18янв.2026 22:22:59.967] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[18янв.2026 22:22:59.969] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
-[18янв.2026 22:23:00.061] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[18янв.2026 22:23:00.322] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[18янв.2026 22:23:00.366] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[18янв.2026 22:23:00.415] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[18янв.2026 22:23:00.462] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[18янв.2026 22:23:00.511] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[18янв.2026 22:23:00.562] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[18янв.2026 22:23:00.610] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[18янв.2026 22:23:00.661] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[18янв.2026 22:23:00.710] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[18янв.2026 22:23:00.782] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[18янв.2026 22:23:00.808] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[18янв.2026 22:23:00.858] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[18янв.2026 22:23:00.924] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[18янв.2026 22:23:00.959] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[18янв.2026 22:23:01.011] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[18янв.2026 22:23:01.062] [Netty Server IO #1/INFO] [Calio/]: Received acknowledgment for login packet with id 15
-[18янв.2026 22:23:02.456] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[18янв.2026 22:23:02.523] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f4cd1ceb] logged in with entity id 3 at (10.095281251330263, -60.0, 15.721405368447279)
-[18янв.2026 22:23:02.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[18янв.2026 22:23:02.994] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
-[18янв.2026 22:23:23.512] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 55 advancements
-[18янв.2026 22:23:25.359] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 58 advancements
-[18янв.2026 22:23:27.402] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18янв.2026 22:23:27.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18янв.2026 22:23:27.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18янв.2026 22:23:27.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18янв.2026 22:23:27.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[18янв.2026 22:23:27.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[18янв.2026 22:23:27.862] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[18янв.2026 22:23:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18янв.2026 22:23:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18янв.2026 22:23:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18янв.2026 22:23:28.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18янв.2026 22:23:28.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18янв.2026 22:23:28.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18янв.2026 22:23:28.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[18янв.2026 22:23:28.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18янв.2026 22:23:28.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18янв.2026 22:23:28.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18янв.2026 22:23:29.087] [Server thread/INFO] [Calio/]: Removing Dynamic Registries for: net.minecraft.client.server.IntegratedServer@396ea7ab
-[18янв.2026 22:23:30.415] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[18янв.2026 22:23:30.431] [Render thread/INFO] [Calio/]: CDRM Initialized with 16 registries
-[18янв.2026 22:23:31.270] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list eidolon_origins:holy from eidolon_origins:tags/items/holy.json in data pack main
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.values[0]
-	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:49) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:114) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.tags.TagManager.lambda$createLoader$4(TagManager.java:55) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 6 column 2 path $.values[0]
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1042) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:824) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.readTerminal(TypeAdapters.java:747) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:791) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar%23130!/:?]
-	... 12 more
-[18янв.2026 22:23:31.413] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe eidolon:smelt_silver_dust as it's serializer returned null
-[18янв.2026 22:23:31.421] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe eidolon:smelt_lead_dust as it's serializer returned null
-[18янв.2026 22:23:31.428] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[18янв.2026 22:23:31.428] [Render thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function eidolon_origins:eorigins/size
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:63) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:83) ~[forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[18янв.2026 22:23:31.458] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1352 advancements
-[18янв.2026 22:23:31.461] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[18янв.2026 22:23:31.465] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18янв.2026 22:23:31.466] [Render thread/WARN] [io.github.apace100.apoli.Apoli/]: Power "eidolon_origins:lych/tier_one/codex" will only be partially loaded: Failed to read fields: Not a JSON object: true
-[18янв.2026 22:23:31.471] [Render thread/WARN] [io.github.apace100.apoli.Apoli/]: Power "eidolon_origins:lych/general/no_armor" will only be partially loaded: Failed to read fields: Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, Unknown registry key: eidolon_origins:warlock_armor, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
-[18янв.2026 22:23:31.852] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[18янв.2026 22:23:31.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18янв.2026 22:23:31.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18янв.2026 22:23:32.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:23:32.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:23:32.964] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18янв.2026 22:23:33.379] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18янв.2026 22:23:33.381] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1433 ms
-[18янв.2026 22:23:33.381] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[18янв.2026 22:23:33.382] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
-[18янв.2026 22:23:33.484] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[18янв.2026 22:23:33.535] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[18янв.2026 22:23:33.587] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[18янв.2026 22:23:33.638] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[18янв.2026 22:23:33.684] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[18янв.2026 22:23:33.737] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[18янв.2026 22:23:33.786] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[18янв.2026 22:23:33.849] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[18янв.2026 22:23:33.921] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[18янв.2026 22:23:33.942] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[18янв.2026 22:23:34.001] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[18янв.2026 22:23:34.036] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[18янв.2026 22:23:34.095] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[18янв.2026 22:23:34.145] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[18янв.2026 22:23:34.185] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[18янв.2026 22:23:34.239] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 15
-[18янв.2026 22:23:35.630] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[18янв.2026 22:23:35.652] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ed73c379] logged in with entity id 28 at (10.026339554697719, -57.87072020655938, 11.511877539952984)
-[18янв.2026 22:23:35.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[18янв.2026 22:23:35.838] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 58 advancements
-[18янв.2026 22:23:54.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Updated Dev's knowledge]
-[18янв.2026 22:23:54.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Updated Dev's knowledge
+[03февр.2026 23:09:39.332] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Елена\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, eidolon_origins.mixins.json]
+[03февр.2026 23:09:39.336] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Alibaba; OS Windows 10 arch amd64 version 10.0
+[03февр.2026 23:09:39.439] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[03февр.2026 23:09:39.512] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[03февр.2026 23:09:39.787] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[03февр.2026 23:09:39.892] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Елена/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[03февр.2026 23:09:39.938] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 572.83, NVIDIA Corporation
+[03февр.2026 23:09:40.274] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.13\cf01e2179f72bd2829c65f5226d7dd0cfb6c686\javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[03февр.2026 23:09:40.279] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.13\e3f96129ea14eba84316f2d69816253e228e6e4c\lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[03февр.2026 23:09:40.283] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.13\85796906112d9b621a7b2996f8bfda49da991ef0\mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[03февр.2026 23:09:40.287] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Елена\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.13\f77e3021d1eb31d61f8d1b92d18ed4fb3c2806e5\fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
+[03февр.2026 23:09:40.583] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[03февр.2026 23:09:42.136] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03февр.2026 23:09:42.161] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Елена\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[03февр.2026 23:09:42.231] [main/WARN] [mixin/]: Reference map 'eidolon_origins.refmap.json' for eidolon_origins.mixins.json could not be read. If this is a development environment you can ignore this message
+[03февр.2026 23:09:42.597] [main/INFO] [mixin/]: Remapping refMap fluffy_fur.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.599] [main/INFO] [mixin/]: Remapping refMap additionalentityattributes.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.599] [main/INFO] [mixin/]: Remapping refMap calio.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.600] [main/INFO] [mixin/]: Remapping refMap caelus.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.604] [main/INFO] [mixin/]: Remapping refMap apoli.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.606] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.608] [main/INFO] [mixin/]: Remapping refMap eidolon.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:42.609] [main/INFO] [mixin/]: Remapping refMap origins.refmap.json using C:\Users\Елена\IdeaProjects\eidolon_origins\build\createSrgToMcp\output.srg
+[03февр.2026 23:09:48.354] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 155 milliseconds
+[03февр.2026 23:09:51.100] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Елена/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.13_mapped_official_1.20.1/forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[03февр.2026 23:09:51.100] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Елена/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.13_mapped_official_1.20.1/forge-1.20.1-47.4.13_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[03февр.2026 23:09:51.117] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03февр.2026 23:09:51.124] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03февр.2026 23:09:51.215] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[03февр.2026 23:09:51.422] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
+[03февр.2026 23:09:51.433] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
+[03февр.2026 23:09:51.466] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
+[03февр.2026 23:09:51.467] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
+[03февр.2026 23:09:51.542] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: eidolon_origins, class net.Tehword.eidolon_origins.Eidolon_origins
+java.lang.StackOverflowError: null
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+	at net.Tehword.eidolon_origins.effect.EOEffects.init(EOEffects.java:20) ~[%23196!/:?]
+[03февр.2026 23:09:52.040] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
+[03февр.2026 23:09:52.072] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[03февр.2026 23:09:52.126] [Render thread/WARN] [net.minecraft.client.Options/]: Removed resource pack mod_resources from options because it doesn't seem to exist anymore
+[03февр.2026 23:09:52.189] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[03февр.2026 23:09:52.395] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[03февр.2026 23:09:52.397] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[03февр.2026 23:09:52.538] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[03февр.2026 23:09:52.603] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[03февр.2026 23:09:52.649] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[03февр.2026 23:09:52.649] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[03февр.2026 23:09:52.649] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[03февр.2026 23:09:52.650] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterTextureAtlasSpriteLoadersEvent to a broken mod state
+[03февр.2026 23:09:52.650] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[03февр.2026 23:09:52.651] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[03февр.2026 23:09:52.651] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[03февр.2026 23:09:52.653] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[03февр.2026 23:09:52.656] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterGuiOverlaysEvent to a broken mod state
+[03февр.2026 23:09:52.660] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[03февр.2026 23:09:52.661] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[03февр.2026 23:09:52.662] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[03февр.2026 23:09:52.663] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[03февр.2026 23:09:52.670] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[03февр.2026 23:09:52.733] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla
+[03февр.2026 23:09:52.767] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[03февр.2026 23:09:52.850] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[03февр.2026 23:09:53.784] [Worker-Main-5/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[03февр.2026 23:09:54.337] [Worker-Main-5/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+[03февр.2026 23:09:54.447] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03февр.2026 23:09:54.447] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03февр.2026 23:09:54.530] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
+[03февр.2026 23:09:54.530] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03февр.2026 23:09:54.530] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[03февр.2026 23:09:54.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[03февр.2026 23:09:54.648] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.648] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[03февр.2026 23:09:54.648] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.648] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[03февр.2026 23:09:54.649] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.649] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[03февр.2026 23:09:54.650] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.650] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[03февр.2026 23:09:54.653] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.653] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[03февр.2026 23:09:54.655] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[03февр.2026 23:09:54.655] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[03февр.2026 23:09:54.655] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03февр.2026 23:09:54.656] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:54.656] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[03февр.2026 23:09:54.753] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.755] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.888] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.889] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.892] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.892] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.893] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.894] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.894] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.896] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.896] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.898] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.898] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.899] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.899] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.900] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.902] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.905] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.905] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.912] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.913] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[03февр.2026 23:09:54.913] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[03февр.2026 23:09:54.943] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03февр.2026 23:09:54.975] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterShadersEvent to a broken mod state
+[03февр.2026 23:09:55.053] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[03февр.2026 23:09:55.053] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:55.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03февр.2026 23:09:55.055] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:55.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03февр.2026 23:09:55.055] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[03февр.2026 23:09:55.299] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 7487bd5f-df1d-4f82-b813-a4c7e108c80f
+[03февр.2026 23:09:55.300] [Render thread/FATAL] [net.minecraftforge.client.loading.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2026-02-03_23.09.55-fml.txt
+[03февр.2026 23:09:55.303] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID e6a87b10-c1b0-4ff3-91f7-6eeb3f6408e4
+[03февр.2026 23:10:05.072] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

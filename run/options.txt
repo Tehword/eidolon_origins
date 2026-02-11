@@ -45,7 +45,7 @@ renderClouds:"true"
 resourcePacks:["vanilla","mod_resources"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:lol_us
+lang:ru_ru
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -118,11 +118,12 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.fluffy_fur.skin_menu:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
+key_key.eidolon.open_docs:key.keyboard.left.control
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
-key_key.eidolon.open_docs:key.keyboard.left.control
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
