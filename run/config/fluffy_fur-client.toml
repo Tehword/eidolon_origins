@@ -6,6 +6,17 @@
 	screenshakeIntensity = 1.0
 	#Enable weather render fix in fabulous graphics.
 	fabulousWeatherFix = true
+	#Enable fancy fog.
+	fancyFog = true
+	#Intensity of fancy fog.
+	#Range: 0.0 ~ 100.0
+	fancyFogntensity = 2.0
+	#Enable sphere shape of fancy fog.
+	fancyFogSphere = false
+	#Enable dependence of clouds on day time.
+	daylightClouds = true
+	#Enable dependence of clouds on day time when daylight cycle disabled.
+	daylightCloudsIgnore = false
 
 	#Particles
 	[graphics.particles]
@@ -19,6 +30,8 @@
 		lightningBoltEffect = true
 		#Enable custom effect of explosion.
 		explosionEffect = true
+		#Enable screenshake for custom effect of explosion.
+		explosionEffectScreenshake = true
 
 	#Shaders
 	[graphics.shaders]

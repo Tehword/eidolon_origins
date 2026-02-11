@@ -107,7 +107,7 @@ dependencies {
     } else file("libs").mkdir()
     implementation fg.deobf("curse.maven:origins-forge-474438:5314209")
     implementation fg.deobf("curse.maven:caelus-308989:5281700")
-    implementation fg.deobf("curse.maven:fluffy-fur-1097456:7361893")
+    implementation fg.deobf("curse.maven:fluffy-fur-1097456:7555692")
 }
 
 tasks.named('processResources', ProcessResources).configure {
