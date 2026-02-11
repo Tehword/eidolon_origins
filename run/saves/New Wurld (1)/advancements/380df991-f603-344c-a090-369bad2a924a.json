@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-20 04:36:40 +0300"
+    },
+    "done": true
+  },
+  "eidolon:root": {
+    "criteria": {
+      "eidolon:ars_ecclesia": "2026-01-20 04:36:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2026-01-20 04:36:57 +0300"
+    },
+    "done": false
+  },
+  "eidolon:sacrifice": {
+    "criteria": {
+      "sacrifice": "2026-01-25 12:26:06 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

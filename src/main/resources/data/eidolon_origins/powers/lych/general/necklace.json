@@ -1,0 +1,15 @@
+{
+  "type": "origins:multiple",
+  "give_slot": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:execute_command",
+      "command": "curios add necklace @s 1"
+    },
+    "condition": {
+      "type": "origins:advancement",
+      "advancement": "eidolon:sacrifice"
+    }
+  },
+  "hidden": true
+}
