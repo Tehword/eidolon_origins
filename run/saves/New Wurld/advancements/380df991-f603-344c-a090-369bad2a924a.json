@@ -1,0 +1,21 @@
+{
+  "eidolon:root": {
+    "criteria": {
+      "eidolon:ars_ecclesia": "2026-01-20 01:09:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-20 01:08:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-01-20 01:09:03 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
