@@ -186,4 +186,11 @@
 		"eidolon_origins:lych/tier_one/sounds" = true
 		"eidolon_origins:lych/general/learn_research" = true
 		"eidolon_origins:lych/general/teleportation" = true
+		"eidolon_origins:lych/general/spore_blossom" = true
+		"eidolon_origins:lych/general/damage" = true
+		"eidolon_origins:lych/general/size" = true
+		"eidolon_origins:lych/general/neutral_undead_enemies" = true
+		"eidolon_origins:lych/general/codex" = true
+		"eidolon_origins:lych/general/chaos_sign" = true
+		"eidolon_origins:lych/general/necklace" = true
 

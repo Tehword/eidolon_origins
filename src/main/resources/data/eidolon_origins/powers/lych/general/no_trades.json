@@ -4,7 +4,7 @@
 		"type": "origins:action_over_time",
 		"entity_action": {
 			"type": "origins:execute_command",
-			"command": "function eidolon_origins:eorigins/poor_reputation"
+			"command": "function eidolon_origins:poor_reputation"
 		},
 		"interval": 20
 	},

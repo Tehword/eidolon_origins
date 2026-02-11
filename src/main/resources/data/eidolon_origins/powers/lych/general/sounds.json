@@ -5,15 +5,15 @@
     "type": "origins:action_over_time",
     "interval": 6000,
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "playsound eidolon_origins:lych_sounds ambient @s ~ ~ ~"
+      "type": "origins:play_sound",
+      "sound": "eidolon_origins:lych_sounds"
     }
   },
   "sound_on_hit": {
   "type": "origins:self_action_when_hit",
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "playsound eidolon_origins:lych_sound_hurt ambient @s ~ ~ ~"
+      "type": "origins:play_sound",
+      "sound": "eidolon_origins:lych_sound_hurt"
     },
     "condition": {
       "type": "origins:health",
@@ -23,11 +23,10 @@
   },
   "sound_on_death": {
       "type": "origins:action_over_time",
-      "interval": 10,
-      "entity_action": {
-        "type": "origins:execute_command",
-        "command": "playsound eidolon_origins:lych_sound_death ambient @s ~ ~ ~"
-      },
+      "rising_action": {
+       "type": "origins:play_sound",
+       "sound": "eidolon_origins:lych_sound_death"
+    },
       "condition": {
         "type": "origins:health",
         "comparison": "<=",

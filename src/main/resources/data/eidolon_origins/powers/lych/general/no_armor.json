@@ -85,7 +85,7 @@
 				"color": "gray"
 			},
 			{
-				"translate": "This armor doesn't suit you.",
+				"translate": "eidolon_origins.no_armor",
 				"color": "red"
 			},
 			{

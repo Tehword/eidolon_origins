@@ -1,79 +1,74 @@
 {
 
-  "eidolon_origins.sign.chaos": "Meow",
+  "eidolon_origins.sign.chaos": "Chwaaaaosssss <3",
 
-  "origin.eidolon_origins.lych.name": "Meow",
-  "origin.eidolon_origins.lych.description": "Meow Meow Meow Meow.",
+  "origin.eidolon_origins.lych.name": "Lich",
+  "origin.eidolon_origins.lych.description": "Bwad pweople >//w//<",
 
-  "power.eidolon_origins.lych/general/undead.name": "Meow",
-  "power.eidolon_origins.lych/general/undead.description": "Meow meow meow meow",
+  "power.eidolon_origins.lych/general/undead.name": "Bwad Pwerson",
+  "power.eidolon_origins.lych/general/undead.description": "U bwad, don`t be bwad >:3",
 
-  "power.eidolon_origins.lych/general/teleportation.name": "Meow Meow",
-  "power.eidolon_origins.lych/general/teleportation.description": "Meow meow meow Meow Meow meow.",
+  "power.eidolon_origins.lych/general/teleportation.name": "Spwooky Pwace",
+  "power.eidolon_origins.lych/general/teleportation.description": "U spawn in spwooky pwace O.O",
 
-  "power.eidolon_origins.lych/general/fragile.name": "Meow",
-  "power.eidolon_origins.lych/general/fragile.description": "Meow meow meow meow meow meow meow meow meow, meow meow meow meow 3 meow.",
+  "power.eidolon_origins.lych/general/fragile.name": "Jwust Bwad",
+  "power.eidolon_origins.lych/general/fragile.description": "How u kwow u too-too bwad pwerson, so u hav owly 5 hwearts T.T",
 
-  "power.eidolon_origins.lych/general/no_armor.name": "Meow Meow",
-  "power.eidolon_origins.lych/general/no_armor.description": "Meow meow meow, meow meow meow - meow meow meow.",
+  "power.eidolon_origins.lych/general/no_armor.name": "Uncomfy Awmor",
+  "power.eidolon_origins.lych/general/no_armor.description": "The awmor fweels so uncomfy fo u >//w//<",
 
-  "power.eidolon_origins.lych/general/aggressive_golems.name": "Meow",
-  "power.eidolon_origins.lych/general/aggressive_golems.description": "Meow meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/no_trades.name": "Ev-Evil Villawers",
+  "power.eidolon_origins.lych/general/no_trades.description": "Villawers and Iwon Gwolems don`t wike you QmQ",
 
-  "power.eidolon_origins.lych/general/no_trades.name": "Meow Meow",
-  "power.eidolon_origins.lych/general/no_trades.description": "Meow meow meow meow meow meow, meow meow meow meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/silver_items_burn.name": "Bwad Mwetal",
+  "power.eidolon_origins.lych/general/silver_items_burn.description": "U don`t wike this silly gway mwetal :3",
 
-  "power.eidolon_origins.lych/general/silver_items_burn.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/general/silver_items_burn.description": "Meow meow meow meow, meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/ash.name": "Bwad Dwust",
+  "power.eidolon_origins.lych/general/ash.description": "U don`t wike this silly dwust too >w<",
 
-  "power.eidolon_origins.lych/general/ash.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/general/ash.description": "Meow meow meow meow meow meow. Meow meow meow meow meow, meow meow meow meow meow meow meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/damage_taken.name": "Eweryone`s Hwatred",
+  "power.eidolon_origins.lych/general/damage_taken.description": "Were no one who wikes u, so wey dweal more dwamage QmQ",
 
-  "power.eidolon_origins.lych/general/damage_taken.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/general/damage_taken.description": "Meow meow meow meow meow meow meow meow meow, meow meow meow.",
+  "power.eidolon_origins.lych/general/damage_dealt.name": "Silly Dwamage",
+  "power.eidolon_origins.lych/general/damage_dealt.description": "`Cwause u so silly, u dweal less dwamage to ewewone :3",
 
-  "power.eidolon_origins.lych/general/damage_dealt.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/general/damage_dealt.description": "Meow meow meow meow-meow meow.",
+  "power.eidolon_origins.lych/general/no_holy_items.name": "No Gwood Iwtems",
+  "power.eidolon_origins.lych/general/no_holy_items.description": "U bwad, so u can`t use gwood stuff T.T",
 
-  "power.eidolon_origins.lych/general/no_holy_items.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/general/no_holy_items.description": "Meow meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.name": "Bwad Friwends",
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.description": "U in bwad comwunity >//w//<",
 
-  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Meow Meow Meow",
-  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.description": "Meow meow meow meow meow meow.",
+  "power.eidolon_origins.lych/general/codex.name": "Silly Bwook",
+  "power.eidolon_origins.lych/general/codex.description": "U hav this silly bwook :3",
 
-  "power.eidolon_origins.lych/tier_one/codex.name": "Meow",
-  "power.eidolon_origins.lych/tier_one/codex.description": "Meow meow meow meow meow meow, meow meow meow meow.",
+  "power.eidolon_origins.lych/general/chaos_sign.name": "Chwaaaaosss Siwn",
+  "power.eidolon_origins.lych/general/chaos_sign.description": "U wike chwaos, don`t u? >w<",
 
-  "power.eidolon_origins.lych/tier_one/chaos_sign.name": "Meow Meow",
-  "power.eidolon_origins.lych/tier_one/chaos_sign.description": "Meow meow meow meow meow meow meow meow meow meow meow meow.",
+  "eidolon_origins.codex.title.chaos_sign": "Chwaaaaosss Siwn",
+  "eidolon_origins.codex.page.chaos_sign.title": "Chwaaaaosss Siwn",
+  "eidolon_origins.codex.page.chaos_sign": "Owly bwad pweole kwnow it OwO. This siwn symwolizes twue bwad >//w//<. As a cwomponewt of silly pwaper, it is uwsed to twurn ewewithing bwad T.T",
+  "eidolon.codex.category.mage_holders": "Mwagic Pweople",
+  "eidolon.codex.page.mage_holders.title": "Mwagic Pweople",
+  "eidolon_origins.codex.page.origins.title": "Owiwins",
+  "eidolon_origins.codex.page.origins": "Owiwins",
+  "eidolon_origins.codex.page.tier_one.title": "Wiwdom: Fiwt Wewel",
+  "eidolon_origins.codex.page.tier_one": "Lichdom: Fiwt Wewel",
+  "eidolon_origins.codex.page.tier_two.title": "Wiwdom: Sewond Wewel",
+  "eidolon_origins.codex.page.tier_two": "Wiwdom: Sewond Wewel",
+  "eidolon_origins.codex.page.tier_three.title": "Wiwdom: Wird Wewel",
+  "eidolon_origins.codex.page.tier_three": "Wiwdom: Wird Wewel",
+  "eidolon_origins.codex.page.tier_four.title": "Wiwdom: Fowrth Wewel",
+  "eidolon_origins.codex.page.tier_four": "Wiwdom: Fowrth Wewel",
 
-  "eidolon_origins.codex.title.chaos_sign": "Meow Meow",
-  "eidolon_origins.codex.page.chaos_sign.title": "Meow Meow",
-  "eidolon_origins.codex.page.chaos_sign": "Meow meow meow meow meow meow meow. Meow meow meow meow meow. Meow meow meow meow meow, meow meow meow meow meow, meow meow meow meow meow. Meow meow meow meow meow meow meow meow meow",
-  "eidolon.codex.category.mage_holders": "Meow meow Meow",
-  "eidolon.codex.page.mage_holders.title": "Meow meow Meow",
-  "eidolon_origins.codex.page.origins.title": "Meow",
-  "eidolon_origins.codex.page.origins": "Meow",
-  "eidolon_origins.codex.page.tier_one.title": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_one": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_two.title": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_two": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_three.title": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_three": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_four.title": "Meow: Meow Meow",
-  "eidolon_origins.codex.page.tier_four": "Meow: Meow Meow",
+  "eidolon_origins.subtitle.lych_sounds": "Bwad pwerson neawby QmQ",
+  "eidolon_origins.subtitle.lych_sound_hurt": "Bwad pwerson fweels bad QmQ",
+  "eidolon_origins.subtitle.lych_sound_death": "Bwad pwerson pwasses away QmQ",
 
-  "eidolon_origins.subtitle.lych_sounds": "Meow meow",
-  "eidolon_origins.subtitle.lych_sound_hurt": "Meow meow",
-  "eidolon_origins.subtitle.lych_sound_death": "Meow meow",
+  "eidolon_origins.codex.page.censer.10": "Jwust silly twest :3",
 
-
-  "eidolon_origins.codex.page.censer.10": "Meow Meow Meow",
-
-  "eidolon_origins.poor_reputation": "Meow meow meow meow meow meow",
-  "research.eidolon_origins.lych_research_one": "Meow: Meow Meow",
-  "research.eidolon_origins.lych_research_two": "Meow: Meow Meow",
-  "research.eidolon_origins.lych_research_three": "Meow: Meow Meow",
-  "research.eidolon_origins.lych_research_four": "Meow: Meow Meow"
-
+  "eidolon_origins.poor_reputation": "U bad, u can`t twalk with gwood pweople >:3",
+  "research.eidolon_origins.lych_research_one": "Wiwdom: Fiwt Wewel",
+  "research.eidolon_origins.lych_research_two": "Wiwdom: Sewond Wewel",
+  "research.eidolon_origins.lych_research_three": "Wiwdom: Sewond Wewel",
+  "research.eidolon_origins.lych_research_four": "Wiwdom: Fowrth Wewel"
 }

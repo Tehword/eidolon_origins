@@ -1,14 +1,27 @@
 {
-  "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "eidolon:undeath",
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": false,
-      "amplifier": 1,
-      "duration": 120000
+  "type": "origins:multiple",
+  "undead_one": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "eidolon:undeath",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false,
+        "amplifier": 0,
+        "duration": 20000000
+      }
+    },
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if predicate eidolon_origins:is_undead_effect",
+      "comparison": "==",
+      "compare_to": 1
     }
+  },
+  "undead_two": {
+    "type": "origins:entity_group",
+    "group": "undead"
   }
 }

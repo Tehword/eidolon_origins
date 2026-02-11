@@ -8,20 +8,20 @@
   "power.eidolon_origins.lych/general/undead.name": "Нежить",
   "power.eidolon_origins.lych/general/undead.description": "Вы нежить.",
 
+  "power.eidolon_origins.lych/general/size.name": "Высокий",
+  "power.eidolon_origins.lych/general/size.description": "Вы высотой 2,5 блока.",
+
   "power.eidolon_origins.lych/general/teleportation.name": "Другой спавн",
   "power.eidolon_origins.lych/general/teleportation.description": "Вы спавнитесь в Крипте Эйдора.",
 
   "power.eidolon_origins.lych/general/fragile.name": "Хрупок",
-  "power.eidolon_origins.lych/general/fragile.description": "Вы по природе более слабы обычного человека, поэтому у вас всего 3 сердечка.",
+  "power.eidolon_origins.lych/general/fragile.description": "Вы по природе более слабы обычного человека, поэтому у вас всего 5 сердечек.",
 
   "power.eidolon_origins.lych/general/no_armor.name": "Неподходящая броня",
   "power.eidolon_origins.lych/general/no_armor.description": "Единственная вещь, которая вам подходит - одежда чернокнижника.",
 
-  "power.eidolon_origins.lych/general/aggressive_golems.name": "Монстр",
-  "power.eidolon_origins.lych/general/aggressive_golems.description": "Железные големы агрессивны к вам.",
-
-  "power.eidolon_origins.lych/general/no_trades.name": "Без торговли",
-  "power.eidolon_origins.lych/general/no_trades.description": "Вы не можете разговаривать с живыми существами, в следствии чего и торговать с жителями.",
+  "power.eidolon_origins.lych/general/no_trades.name": "Плохая репутация",
+  "power.eidolon_origins.lych/general/no_trades.description": "Вы не можете разговаривать с живыми существами, в следствии чего и торговать с жителями, а также железные големы агрессивны по отношению к вам.",
 
   "power.eidolon_origins.lych/general/silver_items_burn.name": "Без серебряных вещей",
   "power.eidolon_origins.lych/general/silver_items_burn.description": "Из-за того, что вы нежить, вы не можете держать в руках серебряные вещи.",
@@ -38,14 +38,14 @@
   "power.eidolon_origins.lych/general/no_holy_items.name": "Без святых вещей",
   "power.eidolon_origins.lych/general/no_holy_items.description": "Вы не можете использовать святые вещи.",
 
-  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.name": "Нейтральная нежить",
-  "power.eidolon_origins.lych/tier_one/neutral_undead_enemies.description": "Нежить нейтральна к вам.",
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.name": "Нейтральная нежить",
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.description": "Нежить нейтральна к вам.",
 
-  "power.eidolon_origins.lych/tier_one/codex.name": "Кодекс",
-  "power.eidolon_origins.lych/tier_one/codex.description": "Вы появляетесь в мире уже с кодексом.",
+  "power.eidolon_origins.lych/general/codex.name": "Кодекс",
+  "power.eidolon_origins.lych/general/codex.description": "Вы появляетесь в мире уже с кодексом.",
 
-  "power.eidolon_origins.lych/tier_one/chaos_sign.name": "Знак хаоса",
-  "power.eidolon_origins.lych/tier_one/chaos_sign.description": "Вы знаете знак хаоса с начала игры.",
+  "power.eidolon_origins.lych/general/chaos_sign.name": "Знак хаоса",
+  "power.eidolon_origins.lych/general/chaos_sign.description": "Вы знаете знак хаоса с начала игры.",
 
   "eidolon_origins.codex.title.chaos_sign": "Знак Хаоса",
   "eidolon_origins.codex.page.chaos_sign.title": "Знак Хаоса",
@@ -68,6 +68,7 @@
   "eidolon_origins.subtitle.lych_sound_death": "Лич погибает",
 
   "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами.",
+  "eidolon_origins.no_armor": "Эта броня вам не подходит",
   "research.eidolon_origins.lych_research_one": "Личдом: шаг один",
   "research.eidolon_origins.lych_research_two": "Личдом: шаг два",
   "research.eidolon_origins.lych_research_three": "Личдом: шаг три",

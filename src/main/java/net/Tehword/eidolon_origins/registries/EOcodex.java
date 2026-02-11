@@ -1,9 +1,7 @@
 package net.Tehword.eidolon_origins.registries;
 
-import elucent.eidolon.client.particle.Particles;
 import elucent.eidolon.codex.*;
 import elucent.eidolon.registries.Registry;
-import elucent.eidolon.registries.Researches;
 import elucent.eidolon.util.ColorUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.ItemStack;

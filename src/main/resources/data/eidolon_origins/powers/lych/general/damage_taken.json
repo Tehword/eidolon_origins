@@ -1,15 +1,25 @@
 {
   "type": "origins:multiple",
-  "damage": {
+  "more_magic": {
     "type": "origins:modify_damage_taken",
-    "damage_condition": {
-      "type": "origins:attacker",
-      "damage_type": "eidolon_origins:is_magic"
-    },
-    "inverted": true,
     "modifier": {
-      "operation": "multiply_total_multiplicative",
-      "value": 1
+      "name": "More magic damage taken",
+      "value": 1,
+      "operation": "multiply_total"
+    },
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "magic"
+        },
+        {
+          "type": "origins:name",
+          "name": "indirectMagic"
+        }
+      ],
+      "inverted": true
     }
   }
 }

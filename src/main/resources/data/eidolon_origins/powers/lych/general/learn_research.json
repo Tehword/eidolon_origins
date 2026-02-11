@@ -10,7 +10,7 @@
   "execute_chosen_when_orb": true,
   "learn_research_two": {
     "type": "origins:action_over_time",
-  "entity_action": {
+  "rising_action": {
     "type": "origins:execute_command",
     "command": "knowledge @s grant research eidolon_origins:lych_research_two"
   },
@@ -21,7 +21,7 @@
 },
   "learn_research_three": {
     "type": "origins:action_over_time",
-    "entity_action": {
+    "rising_action": {
       "type": "origins:execute_command",
       "command": "knowledge @s grant research eidolon_origins:lych_research_three"
     },
@@ -32,7 +32,7 @@
   },
   "learn_research_four": {
     "type": "origins:action_over_time",
-    "entity_action": {
+    "rising_action": {
       "type": "origins:execute_command",
       "command": "knowledge @s grant research eidolon_origins:lych_research_four"
     },

@@ -3,52 +3,53 @@ package net.Tehword.eidolon_origins.spell;
 import elucent.eidolon.api.spells.Sign;
 import elucent.eidolon.capability.ISoul;
 import elucent.eidolon.common.spell.StaticSpell;
+import elucent.eidolon.common.tile.IBurner;
+import elucent.eidolon.network.IgniteEffectPacket;
+import elucent.eidolon.network.Networking;
 import elucent.eidolon.registries.Researches;
 import elucent.eidolon.util.KnowledgeUtil;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.Mth;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.WitherSkull;
 import net.minecraft.world.level.Level;
-
+import net.minecraft.world.level.block.AbstractCandleBlock;
+import net.minecraft.world.level.block.CampfireBlock;
+import net.minecraft.world.level.block.CandleBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.common.util.LazyOptional;
 
+import static net.minecraft.world.item.enchantment.ThornsEnchantment.getDamage;
 
 public class WitherSkullSpell extends StaticSpell {
     public WitherSkullSpell(ResourceLocation name, Sign... signs) {
-        super(name, 10, signs);
+        super(name, signs);
     }
+
     @Override
-    public boolean canCast(Level world, BlockPos pos, Player player) {
-        if (!player.isCreative()) {
-            LazyOptional<ISoul> capability = player.getCapability(ISoul.INSTANCE);
-            if (capability.isPresent() && capability.resolve().isPresent()) {
-                ISoul soul = (ISoul)capability.resolve().get();
-                if (soul.getMagic() < (float)10) {
-                    if (player instanceof ServerPlayer) {
-                        ServerPlayer serverPlayer = (ServerPlayer)player;
-                        serverPlayer.connection.send(new ClientboundSetActionBarTextPacket(Component.translatable("eidolon.title.no_mana")));
-                        return false;
-                    }
-                }
-            }
-        }
-        return true;
+    public boolean canCast(Level world, BlockPos blockPos, Player player) {
+        return KnowledgeUtil.knowsResearch(player, Researches.FIRE_SPELL.getRegistryName());
     }
+
+
     @Override
-    public void cast(Level world, BlockPos blockPos, Player player) {
-        if (!world.isClientSide) {
-            float speed = 8  * 0.01f;
-            float damage = 10;
-            WitherSkull skull = new ExtendedWitherSkull(player, world, speed, damage);
-            Vec3 spawn = player.getEyePosition().add(player.getForward());
-            skull.moveTo(spawn.x, spawn.y - skull.getBoundingBox().getYsize() / 2, spawn.z, player.getYRot() + 180, player.getXRot());
-            world.addFreshEntity(skull);
-            ISoul.expendMana(player, 10);
+    public void cast(Level level, BlockPos blockPos, Player player) {
+        float speed = 8  * .01f;
+        float damage = 10;
+        WitherSkull skull = new ExtendedWitherSkull(player, level, speed, damage);
+        Vec3 spawn = player.getEyePosition().add(player.getForward());
+        skull.moveTo(spawn.x, spawn.y - skull.getBoundingBox().getYsize() / 2, spawn.z, player.getYRot() + 180, player.getXRot());
+        level.addFreshEntity(skull);
+        ISoul.expendMana(player, this.getCost());
         }
-    }
+
 }
