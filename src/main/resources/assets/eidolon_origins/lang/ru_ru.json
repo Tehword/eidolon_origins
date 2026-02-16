@@ -1,7 +1,5 @@
 {
 
-  "eidolon_origins.sign.chaos": "Хаоса",
-
   "origin.eidolon_origins.lych.name": "Лич",
   "origin.eidolon_origins.lych.description": "Лич Лич Лич Лич.",
 
@@ -27,7 +25,7 @@
   "power.eidolon_origins.lych/general/silver_items_burn.description": "Из-за того, что вы нежить, вы не можете держать в руках серебряные вещи.",
 
   "power.eidolon_origins.lych/general/ash.name": "Опасная пыль",
-  "power.eidolon_origins.lych/general/ash.description": "Зачарованая пыль опасна относительно вас. Вы не можете наступать на неё, и если вы дотронетесь или сломаете её - вы загоритесь.",
+  "power.eidolon_origins.lych/general/ash.description": "Зачарованая пыль опасна для вас. Вы не можете наступать на неё, и если вы дотронетесь или сломаете её - вы загоритесь.",
 
   "power.eidolon_origins.lych/general/damage_taken.name": "Получаемый урон",
   "power.eidolon_origins.lych/general/damage_taken.description": "Вы получаете больше урона от всех источников, исключая магию.",
@@ -47,9 +45,10 @@
   "power.eidolon_origins.lych/general/chaos_sign.name": "Знак хаоса",
   "power.eidolon_origins.lych/general/chaos_sign.description": "Вы знаете знак хаоса с начала игры.",
 
+  "eidolon_origins.sign.chaos": "Хаоса",
   "eidolon_origins.codex.title.chaos_sign": "Знак Хаоса",
   "eidolon_origins.codex.page.chaos_sign.title": "Знак Хаоса",
-  "eidolon_origins.codex.page.chaos_sign": "Знак, известный только Личу. Хаос символизирует истинную тьму. В качестве компонента свитка песнопения, используется для искажения песни и её смысла. Позволяя Личу совершать преступления против самого существования.",
+  "eidolon_origins.codex.page.chaos_sign": "Знак, известный только Личу. Хаос символизирует истинную тьму. В качестве компонента свитка песнопения, используется для искажения песни и её смысла. Позволяя личу совершать преступления против самого существования.",
   "eidolon.codex.category.mage_holders": "Владыки магии",
   "eidolon.codex.page.mage_holders.title": "Владыки магии",
   "eidolon_origins.codex.page.origins.title": "Расы",
@@ -68,9 +67,13 @@
   "eidolon_origins.subtitle.lych_sound_death": "Лич погибает",
 
   "eidolon_origins.poor_reputation": "Вы не можете разговаривать с живыми существами.",
-  "eidolon_origins.no_armor": "Эта броня вам не подходит",
+  "eidolon_origins.no_armor.0": "Неподходящая",
+  "eidolon_origins.no_armor.1": "Эта броня вам не подходит",
   "research.eidolon_origins.lych_research_one": "Личдом: шаг один",
   "research.eidolon_origins.lych_research_two": "Личдом: шаг два",
   "research.eidolon_origins.lych_research_three": "Личдом: шаг три",
-  "research.eidolon_origins.lych_research_four": "Личдом: шаг четыре"
+  "research.eidolon_origins.lych_research_four": "Личдом: шаг четыре",
+
+  "eidolon_origins.mod_description": "Eidolon Origins - мод на ориджин, основанный на Эидолоне, и разработанный Flamin-go team. Добавляет лича - нежить, которая имеет много уникальных магических способностей.",
+  "eidolon_origins.eidor_crypt.panorama": "Крипт Эйдора"
 }

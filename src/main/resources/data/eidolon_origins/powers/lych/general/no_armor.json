@@ -77,7 +77,7 @@
 		},
 		"text": [
 			{
-				"translate": "Unsuitable",
+				"translate": "eidolon_origins.no_armor.0",
 				"color": "gray"
 			},
 			{
@@ -85,7 +85,7 @@
 				"color": "gray"
 			},
 			{
-				"translate": "eidolon_origins.no_armor",
+				"translate": "eidolon_origins.no_armor.1",
 				"color": "red"
 			},
 			{

@@ -1,0 +1,17 @@
+
+#Hardcore
+[hardcore]
+	#Enables fix of spectatorsGenerateChunks game rule in hardcore.
+	hardcoreSpectatorsGenerateChunks = true
+	#Enables fix of spectatorsGenerateChunks game rule in hardcore on dedicated servers.
+	hardcoreSpectatorsGenerateChunksDedicated = false
+
+#Spectator
+[spectator]
+	#Enables teleport to spawn in spectator menu.
+	teleportToSpawnSpectator = true
+	#Enables teleport to dimension spawn in spectator menu.
+	teleportToDimensionSpawnSpectator = true
+	#Enables teleport to dimension in spectator menu.
+	teleportToDimensionSpectator = true
+

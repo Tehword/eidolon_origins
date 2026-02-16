@@ -54,7 +54,7 @@
 #Menu
 [menu]
 	#Fluffy Fur Panorama.
-	panorama = "minecraft:vanilla"
+	panorama = "eidolon_origins:eidolon_origins"
 	#Enable Fluffy Fur menu button.
 	menuButton = true
 	#Fluffy Fur menu button row.

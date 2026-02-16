@@ -1,0 +1,26 @@
+
+#Graphics
+[graphics]
+
+	#Particles
+	[graphics.particles]
+		#Enable firefly bush effect.
+		fireflyBushEffect = true
+		#Enable ambient fireflies effect in swamp biomes.
+		firefliesAmbientEffect = true
+
+#Resource Packs
+[resourcepacks]
+	#Enables fixing egg colors for Spawn Eggs Resource Pack
+	spawnEggsResourcepack = false
+	#Enables bat model and animations for Bat Resource Pack
+	#Requires a resource packs reload
+	batResourcepack = false
+	#Enables second armor layer for Leather Horse Armor Resource Pack
+	horseLeatherArmorResourcepack = false
+
+#Overlay
+[overlay]
+	#Enable empty air overlay.
+	emptyAirOverlay = true
+

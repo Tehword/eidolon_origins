@@ -1,0 +1,48 @@
+
+#Data Packs
+[datapacks]
+	#Enables tuff Data Pack
+	#Requires a world reload
+	tuffDatapack = true
+	#Enables copper Data Pack
+	#Requires a world reload
+	copperDatapack = true
+	#Enables plants Data Pack
+	#Requires a world reload
+	plantsDatapack = true
+	#Enables bundles Data Pack
+	#Requires a world reload
+	bundlesDatapack = true
+	#Enables horse armor Data Pack
+	#Requires a world reload
+	horseArmorDatapack = true
+	#Enables paintings Data Pack
+	#Requires a world reload
+	paintingsDatapack = true
+	#Enables lodestone Data Pack
+	#Requires a world reload
+	lodestoneDatapack = true
+	#Enables dyes Data Pack
+	#Requires a world reload
+	dyesDatapack = true
+	#Enables lead Data Pack
+	#Requires a world reload
+	leadDatapack = true
+	#Enables name tag Data Pack
+	#Requires a world reload
+	nameTagDatapack = true
+
+	#Integrations
+	[datapacks.integrations]
+		#Enables Wizard's Reborn integration Data Pack
+		#Requires a world reload
+		wizardsRebornIntegrationDatapack = true
+
+#World
+[world]
+	#Enables cactus flower grow
+	cactusFlowerGrow = true
+	#Enables additional check when cactus flower is grow
+	#Vanilla farm works
+	cactusFlowerGrowCheck = false
+

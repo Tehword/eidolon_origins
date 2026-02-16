@@ -25,7 +25,4 @@ public class EOsounds {
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Eidolon_origins.MODID, name)));
     }
-
-    public static void init() {
-    }
 }

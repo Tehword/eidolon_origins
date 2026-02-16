@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-11 23:54:41 +0300"
+    },
+    "done": true
+  },
+  "eidolon:root": {
+    "criteria": {
+      "eidolon:ars_ecclesia": "2026-02-11 23:55:04 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2026-02-11 23:55:06 +0300"
@@ -17,12 +29,6 @@
     },
     "done": true
   },
-  "eidolon:root": {
-    "criteria": {
-      "eidolon:ars_ecclesia": "2026-02-11 23:55:04 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-02-11 23:55:06 +0300"
@@ -38,18 +44,6 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2026-02-11 23:55:06 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2026-02-11 23:55:11 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2026-02-11 23:54:41 +0300"
     },
     "done": true
   },
@@ -77,12 +71,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_wood_slab": "2026-02-11 23:55:11 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2026-02-11 23:55:06 +0300"
@@ -104,6 +92,24 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2026-02-11 23:55:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-02-11 23:55:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2026-02-11 23:55:11 +0300"
+    },
+    "done": true
+  },
+  "eidolon:sacrifice": {
+    "criteria": {
+      "sacrifice": "2026-02-12 14:30:48 +0300"
     },
     "done": true
   },

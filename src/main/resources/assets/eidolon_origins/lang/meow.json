@@ -1,0 +1,82 @@
+{
+
+  "origin.eidolon_origins.lych.name": "Meow",
+  "origin.eidolon_origins.lych.description": "Meow Meow Meow Meow.",
+
+  "power.eidolon_origins.lych/general/size.name": "Meow",
+  "power.eidolon_origins.lych/general/size.description": "Meow`meow 2,5 meow meow.",
+
+  "power.eidolon_origins.lych/general/undead.name": "Meow",
+  "power.eidolon_origins.lych/general/undead.description": "Meow meow meow meow",
+
+  "power.eidolon_origins.lych/general/teleportation.name": "Meow Meow",
+  "power.eidolon_origins.lych/general/teleportation.description": "Meow meow meow Meow Meow meow.",
+
+  "power.eidolon_origins.lych/general/fragile.name": "Meow",
+  "power.eidolon_origins.lych/general/fragile.description": "Meow meow meow meow meow meow meow meow meow, meow meow meow meow 3 meow.",
+
+  "power.eidolon_origins.lych/general/no_armor.name": "Meow Meow",
+  "power.eidolon_origins.lych/general/no_armor.description": "Meow meow meow, meow meow meow - meow meow meow.",
+
+  "power.eidolon_origins.lych/general/no_trades.name": "Meow Meow",
+  "power.eidolon_origins.lych/general/no_trades.description": "Meow meow meow meow meow meow, meow meow meow meow meow meow meow meow, meow meow meow meow meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/silver_items_burn.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/silver_items_burn.description": "Meow meow meow meow, meow meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/ash.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/ash.description": "Meow meow meow meow meow meow. Meow meow meow meow meow, meow meow meow meow meow meow meow meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/damage_taken.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/damage_taken.description": "Meow meow meow meow meow meow meow meow meow, meow meow meow.",
+
+  "power.eidolon_origins.lych/general/damage_dealt.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/damage_dealt.description": "Meow meow meow meow-meow meow.",
+
+  "power.eidolon_origins.lych/general/no_holy_items.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/no_holy_items.description": "Meow meow meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.name": "Meow Meow Meow",
+  "power.eidolon_origins.lych/general/neutral_undead_enemies.description": "Meow meow meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/codex.name": "Meow",
+  "power.eidolon_origins.lych/general/codex.description": "Meow meow meow meow meow meow, meow meow meow meow.",
+
+  "power.eidolon_origins.lych/general/chaos_sign.name": "Meow Meow",
+  "power.eidolon_origins.lych/general/chaos_sign.description": "Meow meow meow meow meow meow meow meow meow meow meow meow.",
+
+  "eidolon_origins.sign.chaos": "Meow",
+  "eidolon_origins.codex.title.chaos_sign": "Meow Meow",
+  "eidolon_origins.codex.page.chaos_sign.title": "Meow Meow",
+  "eidolon_origins.codex.page.chaos_sign": "Meow meow meow meow meow meow meow. Meow meow meow meow meow. Meow meow meow meow meow, meow meow meow meow meow, meow meow meow meow meow. Meow meow meow meow meow meow meow meow meow",
+  "eidolon.codex.category.mage_holders": "Meow meow Meow",
+  "eidolon.codex.page.mage_holders.title": "Meow meow Meow",
+  "eidolon_origins.codex.page.origins.title": "Meow",
+  "eidolon_origins.codex.page.origins": "Meow",
+  "eidolon_origins.codex.page.tier_one.title": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_one": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_two.title": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_two": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_three.title": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_three": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_four.title": "Meow: Meow Meow",
+  "eidolon_origins.codex.page.tier_four": "Meow: Meow Meow",
+
+  "eidolon_origins.subtitle.lych_sounds": "Meow meow",
+  "eidolon_origins.subtitle.lych_sound_hurt": "Meow meow",
+  "eidolon_origins.subtitle.lych_sound_death": "Meow meow",
+
+  "eidolon_origins.codex.page.censer.10": "Meow Meow Meow",
+
+  "eidolon_origins.poor_reputation": "Meow meow meow meow meow meow",
+  "eidolon_origins.no_armor.0": "Meow",
+  "eidolon_origins.no_armor.1": "Meow meow meow`meow meow meow",
+  "research.eidolon_origins.lych_research_one": "Meow: Meow Meow",
+  "research.eidolon_origins.lych_research_two": "Meow: Meow Meow",
+  "research.eidolon_origins.lych_research_three": "Meow: Meow Meow",
+  "research.eidolon_origins.lych_research_four": "Meow: Meow Meow",
+
+  "eidolon_origins.mod_description": "Meow Meow - meow meow meow meow meow meow, meow meow meow-meow meow. meow meow meow - meow meow, meow meow meow meow meow meow meow meow.",
+  "eidolon_origins.eidor_crypt.panorama": "Meow Meow"
+
+}

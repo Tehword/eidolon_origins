@@ -1,18 +1,19 @@
 {
 
-  "eidolon_origins.sign.chaos": "Chwaaaaosssss <3",
-
-  "origin.eidolon_origins.lych.name": "Lich",
+  "origin.eidolon_origins.lych.name": "Bwad Pwerson",
   "origin.eidolon_origins.lych.description": "Bwad pweople >//w//<",
 
   "power.eidolon_origins.lych/general/undead.name": "Bwad Pwerson",
   "power.eidolon_origins.lych/general/undead.description": "U bwad, don`t be bwad >:3",
 
+  "power.eidolon_origins.lych/general/size.name": "Tall",
+  "power.eidolon_origins.lych/general/size.description": "U tall OwO",
+
   "power.eidolon_origins.lych/general/teleportation.name": "Spwooky Pwace",
-  "power.eidolon_origins.lych/general/teleportation.description": "U spawn in spwooky pwace O.O",
+  "power.eidolon_origins.lych/general/teleportation.description": "U spawn in spwooky pwace OwO",
 
   "power.eidolon_origins.lych/general/fragile.name": "Jwust Bwad",
-  "power.eidolon_origins.lych/general/fragile.description": "How u kwow u too-too bwad pwerson, so u hav owly 5 hwearts T.T",
+  "power.eidolon_origins.lych/general/fragile.description": "How u kwow u too-too bwad pwerson, so u hav owly 5 hwearts TwT",
 
   "power.eidolon_origins.lych/general/no_armor.name": "Uncomfy Awmor",
   "power.eidolon_origins.lych/general/no_armor.description": "The awmor fweels so uncomfy fo u >//w//<",
@@ -33,7 +34,7 @@
   "power.eidolon_origins.lych/general/damage_dealt.description": "`Cwause u so silly, u dweal less dwamage to ewewone :3",
 
   "power.eidolon_origins.lych/general/no_holy_items.name": "No Gwood Iwtems",
-  "power.eidolon_origins.lych/general/no_holy_items.description": "U bwad, so u can`t use gwood stuff T.T",
+  "power.eidolon_origins.lych/general/no_holy_items.description": "U bwad, so u can`t use gwood stuff TwT",
 
   "power.eidolon_origins.lych/general/neutral_undead_enemies.name": "Bwad Friwends",
   "power.eidolon_origins.lych/general/neutral_undead_enemies.description": "U in bwad comwunity >//w//<",
@@ -44,9 +45,10 @@
   "power.eidolon_origins.lych/general/chaos_sign.name": "Chwaaaaosss Siwn",
   "power.eidolon_origins.lych/general/chaos_sign.description": "U wike chwaos, don`t u? >w<",
 
+  "eidolon_origins.sign.chaos": "Chwaaaaosssss <3",
   "eidolon_origins.codex.title.chaos_sign": "Chwaaaaosss Siwn",
   "eidolon_origins.codex.page.chaos_sign.title": "Chwaaaaosss Siwn",
-  "eidolon_origins.codex.page.chaos_sign": "Owly bwad pweole kwnow it OwO. This siwn symwolizes twue bwad >//w//<. As a cwomponewt of silly pwaper, it is uwsed to twurn ewewithing bwad T.T",
+  "eidolon_origins.codex.page.chaos_sign": "Owly bwad pweole kwnow it OwO. This siwn symwolizes twue bwad >//w//<. As a cwomponewt of silly pwaper, it is uwsed to twurn ewewithing bwad TwT",
   "eidolon.codex.category.mage_holders": "Mwagic Pweople",
   "eidolon.codex.page.mage_holders.title": "Mwagic Pweople",
   "eidolon_origins.codex.page.origins.title": "Owiwins",
@@ -66,9 +68,15 @@
 
   "eidolon_origins.codex.page.censer.10": "Jwust silly twest :3",
 
-  "eidolon_origins.poor_reputation": "U bad, u can`t twalk with gwood pweople >:3",
+  "eidolon_origins.poor_reputation": "U bwad, u can`t twalk with gwood pweople >:3",
+  "eidolon_origins.no_armor.0": "Uncomfy",
+  "eidolon_origins.no_armor.1": "This awmor fweels so uncomfy TwT",
   "research.eidolon_origins.lych_research_one": "Wiwdom: Fiwt Wewel",
   "research.eidolon_origins.lych_research_two": "Wiwdom: Sewond Wewel",
   "research.eidolon_origins.lych_research_three": "Wiwdom: Sewond Wewel",
-  "research.eidolon_origins.lych_research_four": "Wiwdom: Fowrth Wewel"
+  "research.eidolon_origins.lych_research_four": "Wiwdom: Fowrth Wewel",
+
+  "eidolon_origins.mod_description": "Eiwolon Owiwins - an owiwins mod bwased on Eiwolon, deweloped by Flawin-go tweam OwO. Adds bwad pwerson owiwin >:3 - so bwad pwerson, that has a lot of mwagic thwings UwU",
+  "eidolon_origins.eidor_crypt.panorama": "Spwooky Pwace 0w0"
+
 }

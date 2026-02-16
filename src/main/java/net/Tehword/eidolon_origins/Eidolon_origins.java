@@ -11,10 +11,14 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+
+import static mod.maxbogomol.fluffy_fur.FluffyFur.hi;
 
 @Mod(Eidolon_origins.MODID)
 public class Eidolon_origins {
@@ -27,11 +31,14 @@ public class Eidolon_origins {
         EOspells.init();
         EOsigns.init();
         EOEffects.init(modEventBus);
-        EOsounds.init();
+        EOsounds.SOUND_EVENTS.register(modEventBus);
         EOresearches.init();
 
         EOModStructures.STRUCTURES.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(Eidolon_origins_client::ClientSetup);
+        modEventBus.addListener(this::setup);
     }
 
     @SubscribeEvent
@@ -42,5 +49,8 @@ public class Eidolon_origins {
         if (PlayerSkinHandler.getSkin(player) != LychPlayerSkins.KOSTI && KnowledgeUtil.knowsSign(player, EOsigns.CHAOS_SIGN)) {
             PlayerSkinHandler.setSkinPacket(LychPlayerSkins.KOSTI);
         }
+    }
+    private void setup(final FMLCommonSetupEvent event) {
+        hi();
     }
 }

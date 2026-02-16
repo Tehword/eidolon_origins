@@ -1,6 +1,6 @@
 {
-  "hidden": true,
   "type": "origins:multiple",
+  "hidden": true,
   "ambient_sound": {
     "type": "origins:action_over_time",
     "interval": 6000,
